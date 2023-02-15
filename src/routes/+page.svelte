@@ -1,3 +1,7 @@
+<script>
+  import StayUpToDate from '$lib/components/StayUpToDate.svelte';
+</script>
+
 <div
   class="bg-[url('/img/matrix-dot-off.png')] bg-repeat bg-[length:8px_8px] min-h-[16rem] md:min-h-[36rem] flex flex-col border-b-zinc-900 border-b-2"
 >
@@ -115,39 +119,6 @@
   </div>
 </div>
 
-<div class="max-w-full mx-auto mb-32 px-4 py-16 w-[1200px]">
-  <h2 class="font-bold text-4xl sm:text-6xl">Stay up to date!</h2>
-  <p class="mt-4 text-xl">
-    There's multiple ways to stay up to date with the latest developments around Pincrediball:
-  </p>
-  <ul class="list-disc mt-4 text-xl">
-    <li class="ml-8">
-      <a href="/devlog" class="underline hover:text-orange-500">Regularly check the devlog</a> (sorry,
-      no RSS yet; please use socials for notifications)
-    </li>
-    <li class="ml-8">
-      <a
-        href="https://mastodon.social/@pincrediball"
-        target="_blank"
-        rel="noreferrer"
-        class="underline hover:text-orange-500">Follow @Pincrediball@mastdon.social</a
-      >
-    </li>
-    <li class="ml-8">
-      <a
-        href="https://twitter.com/pincrediball"
-        target="_blank"
-        rel="noreferrer"
-        class="underline hover:text-orange-500">Follow @Pincrediball on Twitter</a
-      >
-    </li>
-    <li class="ml-8">
-      <a
-        href="https://www.youtube.com/@pincrediball"
-        target="_blank"
-        rel="noreferrer"
-        class="underline hover:text-orange-500">Subscribe on YouTube</a
-      > (content forthcoming!?)
-    </li>
-  </ul>
-</div>
+<StayUpToDate />
+
+<div class="mb-32" />
