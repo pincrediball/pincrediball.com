@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .a-internal {
+    @apply underline text-orange-100 hover:text-orange-500;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

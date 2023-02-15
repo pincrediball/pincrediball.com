@@ -62,9 +62,8 @@
   </p>
   <p class="mt-4 text-xl">
     The process is largely out in the open though! So that's something to enjoy already. Here's the
-    initial design, but be sure to <a href="/devlog" class="underline hover:text-orange-500"
-      >check the devlog</a
-    > for more frequent updates.
+    initial design, but be sure to <a href="/devlog" class="a-internal">check the devlog</a> for more
+    frequent updates.
   </p>
   <img
     src="/img/v2023-02-14a-tipm-design.png"

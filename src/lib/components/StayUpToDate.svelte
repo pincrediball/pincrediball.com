@@ -9,8 +9,8 @@
   </p>
   <ul class="list-disc mt-4 text-xl">
     <li class="ml-8">
-      <a href="/devlog" class="underline hover:text-orange-500">Regularly check the devlog</a> (sorry,
-      no RSS yet; please use socials for notifications)
+      <a href="/devlog" class="a-internal">Regularly check the devlog</a> (sorry, no RSS yet; please
+      use socials for notifications)
     </li>
     <li class="ml-8">
       <A href="https://mastodon.social/@pincrediball">Follow @Pincrediball@mastdon.social</A>

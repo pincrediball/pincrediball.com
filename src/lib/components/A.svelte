@@ -4,7 +4,7 @@
 
 <!-- prettier-ignore -->
 <a
-  class="hover:text-orange-400"
+  class="text-orange-100 hover:text-orange-400"
   target="_blank"
   rel="noreferrer"
   {href}><span class="underline"
