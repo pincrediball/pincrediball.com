@@ -2,9 +2,11 @@
   import A from '$lib/components/A.svelte';
 </script>
 
-<div class="w-[1200px] max-w-full mx-auto px-4 py-16">
+<div class="w-[1200px] max-w-full mx-auto px-4 pt-12 pb-16">
   <div class="grid md:grid-cols-[2fr_1fr] grid-cols-1 w-full gap-4 lg:gap-16">
     <div class="">
+      <p class="mb-2 text-sm">Latest post:</p>
+
       <div id="post-2023-02-15" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 3: Website first?</h2>
         <h3 class="font-bold mt-2">
@@ -47,6 +49,8 @@
       </div>
 
       <hr class="opacity-50 my-8" />
+
+      <p class="mb-4 text-sm">Older posts:</p>
 
       <div id="post-2023-02-14" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 2: Now we're getting somewhere!</h2>
@@ -114,7 +118,9 @@
     </div>
 
     <div>
-      <div class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm">
+      <div
+        class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm sticky top-24"
+      >
         <!-- prettier-ignore -->
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts:</h2>
