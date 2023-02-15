@@ -3,6 +3,7 @@
   import SvgMastodon from '$lib/components/SvgMastodon.svelte';
   import SvgTwitter from '$lib/components/SvgTwitter.svelte';
   import '../app.css';
+  import '../inter.css';
 </script>
 
 <div class="min-h-screen flex flex-col bg-gradient-to-b from-zinc-800 to-zinc-900 text-stone-50">
