@@ -8,7 +8,7 @@
 
 <div class="min-h-screen flex flex-col bg-gradient-to-b from-zinc-800 to-zinc-900 text-stone-50">
   <nav
-    class="bg-zinc-700 border-b-2 border-b-black px-4 h-16 sticky top-0 drop-shadow-[0_4px_2px_rgba(0,0,0,0.25)]"
+    class="bg-amber-400 text-zinc-900 border-b border-b-zinc-900 px-4 h-16 sticky top-0 shadow-firm"
   >
     <div class="flex items-center gap-1 h-full max-w-page mx-auto">
       <div class="flex flex-wrap items-center">
@@ -21,10 +21,10 @@
       </div>
       <div class="ml-auto flex h-full items-center gap-2">
         <a target="_blank" rel="noreferrer me" href="https://twitter.com/pincrediball">
-          <SvgTwitter clazz="fill-zinc-50 hover:fill-orange-500" />
+          <SvgTwitter clazz="fill-zinc-50 hover:fill-purple-600" />
         </a>
         <a target="_blank" rel="noreferrer me" href="https://mastodon.social/@pincrediball">
-          <SvgMastodon clazz="fill-zinc-50 hover:fill-orange-500" />
+          <SvgMastodon clazz="fill-zinc-50 hover:fill-purple-600" />
         </a>
       </div>
     </div>

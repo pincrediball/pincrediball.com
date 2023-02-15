@@ -35,7 +35,7 @@
     </div>
     <div class="md:w-[48rem]">
       <div
-        class="bg-amber-400 border-4 border-amber-600/50 text-zinc-900 rounded-lg p-4 shadow-xl lg:-mb-[120px]"
+        class="bg-amber-400 border-4 border-amber-600/50 text-zinc-900 rounded-lg p-4 shadow-firm lg:-mb-[120px]"
       >
         <h2 class="font-bold text-3xl">Testimonials</h2>
         <p class="mt-4 italic">
@@ -47,7 +47,7 @@
         <p class="mt-4 italic">
           Pinball is my all-time favorite game category, and this game redefines the genre!
         </p>
-        <p class="mt-2 italic">-- Bunbury</p>
+        <p class="mt-2 italic">-Bunbury</p>
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@
   </p>
   <img
     src="/img/v2023-02-14a-tipm-design.png"
-    class="mt-8 border-zinc-50 border-8 shadow"
+    class="mt-8 border-zinc-50 border-8 shadow-firm"
     alt="Design overview of 'Pincrediball' showing the game screen with annotations"
   />
 </div>
@@ -86,7 +86,7 @@
     </p>
     <div class="flex flex-wrap md:flex-nowrap gap-4 mt-8">
       <div
-        class="shadow-lg bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
+        class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
         <h3 class="font-bold text-3xl">Q1 2023</h3>
         <ul class="list-disc mt-4 text-xl">
@@ -96,7 +96,7 @@
         </ul>
       </div>
       <div
-        class="shadow-lg bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
+        class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
         <h3 class="font-bold text-3xl">Q1 2023 - Never?</h3>
         <ul class="list-disc mt-4 text-xl">
@@ -107,7 +107,7 @@
         </ul>
       </div>
       <div
-        class="shadow-lg bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
+        class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
         <h3 class="font-bold text-3xl">Q2 2023 - Never?</h3>
         <ul class="list-disc mt-4 text-xl">
