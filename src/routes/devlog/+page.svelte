@@ -1,19 +1,11 @@
 <script lang="ts">
   import A from '$lib/components/A.svelte';
-
-  let posts = [
-    {
-      timestamp: '2023-02-14T23:00:00.000',
-      title: 'Day 1: Gotta start somewhere!',
-      text: 'Text text text.',
-    },
-  ];
 </script>
 
 <div class="w-[1200px] max-w-full mx-auto px-4 py-16">
-  <div class="flex flex-wrap w-full gap-4">
-    <div class="w-full md:w-2/3">
-      <div>
+  <div class="grid md:grid-cols-[2fr_1fr] grid-cols-1 w-full gap-4 lg:gap-16">
+    <div class="">
+      <div id="post-2023-02-15" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 3: Website first?</h2>
         <h3 class="font-bold mt-2">
           <span class="text-amber-500">Jeroen</span>, February 15, 2023
@@ -56,7 +48,7 @@
 
       <hr class="opacity-50 my-8" />
 
-      <div>
+      <div id="post-2023-02-14" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 2: Now we're getting somewhere!</h2>
         <h3 class="font-bold mt-2">
           <span class="text-amber-500">Jeroen</span>, February 14, 2023
@@ -90,7 +82,7 @@
 
       <hr class="opacity-50 my-8" />
 
-      <div>
+      <div id="post-2023-02-13" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 1: Gotta start somewhere!</h2>
         <h3 class="font-bold mt-2">
           <span class="text-amber-500">Jeroen</span>, February 13, 2023
@@ -118,6 +110,18 @@
           <li class="ml-8">✅ Initial designs</li>
         </ul>
         <p class="mt-4">In the end would call day 1 a success!</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm">
+        <!-- prettier-ignore -->
+        <div class="p-4 flex flex-col gap-2">
+          <h2 class="text-xl font-bold">Links to all posts:</h2>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-15">Day 3: Website first?</a>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-14">Day 2: Now we're getting somewhere!</a>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-13">Day 1: Gotta start somewhere!</a>
+        </div>
       </div>
     </div>
   </div>
