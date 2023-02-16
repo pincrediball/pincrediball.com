@@ -13,7 +13,7 @@
       use socials for notifications)
     </li>
     <li class="ml-8">
-      <A href="https://mastodon.social/@pincrediball">Follow @Pincrediball@mastdon.social</A>
+      <A href="https://mastodon.social/@pincrediball">Follow @Pincrediball@mastodon.social</A>
     </li>
     <li class="ml-8">
       <A href="https://twitter.com/pincrediball">Follow @Pincrediball on Twitter</A>
