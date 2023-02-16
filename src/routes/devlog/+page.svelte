@@ -7,6 +7,48 @@
     <div class="">
       <p class="mb-2 text-sm">Latest post:</p>
 
+      <div id="post-2023-02-16" class="scroll-mt-24">
+        <h2 class="font-bold text-3xl">Day 4: Engine's on!</h2>
+        <h3 class="font-bold mt-2">
+          <span class="text-amber-500">Jeroen</span>, February 16, 2023
+        </h3>
+        <hr class="mt-2 opacity-5" />
+        <p class="mt-2">
+          Today it's time to figure out an engine to use. I'm leaning heavily towards <A
+            href="https://phaser.io/">PhaserJS</A
+          > (the main alternatives being Godot and Unity), because it allows me to tap into my existing
+          web development and JavaScript skills.
+        </p>
+        <p class="mt-4">
+          I'm mostly doing tutorials and reading documentation, so no exciting updates from today
+          for the devlog. That does give me a minute to share my rough "plan" I created earlier in
+          the project. Here it is:
+        </p>
+        <a href="/img/v2023-02-14a-tipm-brainstorm.png" target="_blank">
+          <img
+            class="border-4 border-black hover:border-amber-600 mt-4"
+            src="/img/v2023-02-14a-tipm-brainstorm.png"
+            alt="Brainstorm overview divided in 6 sections: Design, Graphics/Art, Sound/Music, Game Loop/Engine, Polish, Publish"
+          />
+        </a>
+        <p class="mt-4">
+          It started as a brainstorm, but it became a rough "plan". Each of the six parts is roughly
+          a timebox of one week. I'm starting with "Design" this week, but currently borrowing a bit
+          from the next goal: "Game Loop / Engine".
+        </p>
+        <p class="mt-4">
+          Stuff's color coded too: the red stuff is Must-Haves, yellow Should-Haves, and green the
+          Nice-to-Haves.
+        </p>
+        <p class="mt-4">
+          What do you think? Too optimistic? Probably. But let's see how far we'll get, shall we?!
+        </p>
+      </div>
+
+      <hr class="opacity-50 my-8" />
+
+      <p class="mb-4 text-sm">Older posts:</p>
+
       <div id="post-2023-02-15" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 3: Website first?</h2>
         <h3 class="font-bold mt-2">
@@ -49,8 +91,6 @@
       </div>
 
       <hr class="opacity-50 my-8" />
-
-      <p class="mb-4 text-sm">Older posts:</p>
 
       <div id="post-2023-02-14" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 2: Now we're getting somewhere!</h2>
@@ -124,6 +164,7 @@
         <!-- prettier-ignore -->
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts:</h2>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-16">Day 4: Engine's on!</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-15">Day 3: Website first?</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-14">Day 2: Now we're getting somewhere!</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-13">Day 1: Gotta start somewhere!</a>
