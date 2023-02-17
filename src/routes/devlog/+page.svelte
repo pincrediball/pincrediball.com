@@ -7,6 +7,41 @@
     <div class="">
       <p class="mb-2 text-sm">Latest post:</p>
 
+      <div id="post-2023-02-17" class="scroll-mt-24">
+        <h2 class="font-bold text-3xl">Day 5: Prototype 001</h2>
+        <h3 class="font-bold mt-2">
+          <span class="text-amber-500">Jeroen</span>, February 17, 2023
+        </h3>
+        <hr class="mt-2 opacity-5" />
+        <p class="mt-2">
+          Today was not a very productive day, mostly because I didn't spend too much time on the
+          project. Still, got to a very first prototype with a plunger and a ball, plus some
+          physics:
+        </p>
+        <div class="mt-4">
+          <!-- svelte-ignore a11y-media-has-caption -->
+          <video
+            src="/img/pincrediball-prototype-001.webm"
+            controls
+            loop
+            class="border-8 border-black/25 w-full lg:min-h-[500px]"
+          >
+            <p>Video recording of an extremely crude demo pinball machine.</p>
+          </video>
+        </div>
+        <p class="mt-4">
+          It seems the choice for PhaserJS with the MatterJS physics engine is "good enough" for my
+          goals. And I think I will just leave it to chance that I chose right, instead of heavily
+          investigating other Game Engines.
+        </p>
+        <p class="mt-4">
+          That's it for day 5. Weekend's up next, we'll see if I continue work, or whether the next
+          update will come on Monday...
+        </p>
+      </div>
+
+      <hr class="opacity-50 my-8" />
+
       <div id="post-2023-02-16" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 4: Engine's on!</h2>
         <h3 class="font-bold mt-2">
@@ -164,6 +199,7 @@
         <!-- prettier-ignore -->
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts:</h2>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-17">Day 5: Prototype 001</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-16">Day 4: Engine's on!</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-15">Day 3: Website first?</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-14">Day 2: Now we're getting somewhere!</a>
