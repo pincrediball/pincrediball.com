@@ -20,12 +20,12 @@
         </p>
         <div class="mt-4">
           <!-- svelte-ignore a11y-media-has-caption -->
-          <video
-            src="/img/pincrediball-prototype-001.webm"
-            controls
-            loop
-            class="border-8 border-black/25 w-full lg:min-h-[500px]"
-          >
+          <video controls loop class="border-8 border-black/25 w-full lg:min-h-[500px]">
+            <source
+              src="/img/pincrediball-prototype-001.webm"
+              type="video/webm; codecs=vp9,vorbis"
+            />
+            <source src="/img/pincrediball-prototype-001.mp4" type="video/mp4" />
             <p>Video recording of an extremely crude demo pinball machine.</p>
           </video>
         </div>
