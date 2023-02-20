@@ -7,6 +7,78 @@
     <div class="">
       <p class="mb-2 text-sm">Latest post:</p>
 
+      <div id="post-2023-02-20" class="scroll-mt-24">
+        <h2 class="font-bold text-3xl">Day 8: Prototype 002</h2>
+        <h3 class="font-bold mt-2">
+          <span class="text-amber-500">Jeroen</span>, February 20, 2023
+        </h3>
+        <hr class="mt-2 opacity-5" />
+        <p class="mt-2">
+          After not doing too much during the weekend (days 6 & 7), it's now Monday of week 2 and
+          high time to get back to the project. After a week of "meta" stuff, designing, and a
+          super-light prototype, today was spent on more in-depth prototyping.
+        </p>
+        <p class="mt-4">
+          I'm very happy with what I <em>did</em>, but only moderately so with the <em>result</em>.
+          Here, have a look for yourself first:
+        </p>
+        <div class="mt-4">
+          <!-- svelte-ignore a11y-media-has-caption -->
+          <video controls loop class="border-8 border-black/25 w-full lg:min-h-[400px]">
+            <source src="/img/pincrediball-prototype-002.mp4" type="video/mp4" />
+            <p>Video recording of an extremely crude demo pinball machine.</p>
+          </video>
+        </div>
+        <p class="mt-1 text-xs opacity-75">
+          (Note that you see the debug boxes and vectors in these prototypes.)
+        </p>
+        <p class="mt-4">
+          Let's summarize what I learned during today's experiments, starting with the positives:
+        </p>
+        <ul class="mt-4">
+          <li class="ml-8">
+            <span class="font-bold text-green-500 mr-2">+</span> SvelteKit will be a great "bearer" of
+            the game
+          </li>
+          <li class="ml-8">
+            <span class="font-bold text-green-500 mr-2">+</span> Using plain html/css/js for parts of
+            the app will likely turn out great
+          </li>
+          <li class="ml-8">
+            <span class="font-bold text-green-500 mr-2">+</span> Tailwind enables for fast menu's and
+            other UI
+          </li>
+          <li class="ml-8">
+            <span class="font-bold text-green-500 mr-2">+</span> I got <em>something</em> looking like
+            Pinball physics to work
+          </li>
+        </ul>
+        <p class="mt-4">However, I have many concerns after today:</p>
+        <ul class="mt-4">
+          <li class="ml-8">
+            <span class="font-bold text-red-500 mr-2">&ndash;</span> MatterJS physics is wonky
+            (balls going <em>through</em> static bounds or getting stuck)
+          </li>
+          <li class="ml-8">
+            <span class="font-bold text-red-500 mr-2">&ndash;</span> Level editing is cumbersome in (vanilla)
+            Phaser, without any tools
+          </li>
+          <li class="ml-8">
+            <span class="font-bold text-red-500 mr-2">&ndash;</span> Curved shapes and SVG paths are
+            a <em>major</em> pain to use
+          </li>
+        </ul>
+        <p class="mt-4">
+          I'm not so sure yet where to go from here. Have I learned that I need to go back to my
+          original idea? Building a super-simple physics engine of my own, to make everything far
+          more deterministic and reliable? Or should I stick with out-of-the-box physics and just
+          deal with the issues?
+        </p>
+        <p class="mt-4">Perhaps a night's sleep and some distraction will bring clarity.</p>
+      </div>
+
+      <hr class="opacity-50 my-8" />
+
       <div id="post-2023-02-17" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 5: Prototype 001</h2>
         <h3 class="font-bold mt-2">
@@ -199,6 +271,7 @@
         <!-- prettier-ignore -->
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts:</h2>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-20">Day 8: Prototype 002</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-17">Day 5: Prototype 001</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-16">Day 4: Engine's on!</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-15">Day 3: Website first?</a>
