@@ -7,6 +7,62 @@
     <div class="">
       <p class="mb-2 text-sm">Latest post:</p>
 
+      <div id="post-2023-02-21" class="scroll-mt-24">
+        <h2 class="font-bold text-3xl">Day 9: Prototype 003, part 1</h2>
+        <h3 class="font-bold mt-2">
+          <span class="text-amber-500">Jeroen</span>, February 21, 2023
+        </h3>
+        <hr class="mt-2 opacity-5" />
+        <p class="mt-2">
+          After <A href="#post-2023-02-20">yesterday</A> several friends helped out with some rubber
+          duck debugging. Got some great input on Slack and in other places about how I could wrangle
+          the physics engine collisions into submission. And how much I should probably let go and embrace
+          the chaos of a realistic engine.
+        </p>
+        <p class="mt-4">However, I still changed it up... for prototyping purposes!</p>
+        <p class="mt-4">
+          Using PhaserJS and MatterJS might <em>still</em> be the right way to go. But I still wanted
+          to try out how it feels to create a fully custom engine anyways.
+        </p>
+        <p class="mt-4">
+          And while I was at that, I was also curious to see how far I can get with plain html, css,
+          And JavaScript (and no <em>game</em> engine). Using SvelteKit and Tailwind, just for prototyping
+          speed at the moment.
+        </p>
+        <p class="my-4">
+          I didn't get very far yet with writing the actual game loop and time ticker. But I did do
+          a bunch of good work on an initial game layout. It's far from polished, but (even though
+          polish might be 80% of the work?!) that's for later. Here's the initial results:
+        </p>
+        <a href="/img/pincrediball-prototype-003-part1a.png" target="_blank">
+          <img src="/img/pincrediball-prototype-003-part1a.png" alt="Game in a browser window" />
+        </a>
+        <p class="mt-4">
+          Obviously, this still needs work. But it's getting somewhere. Even if I go the PhaserJS
+          route after all, I might be able to use this setup in conjunction with it.
+        </p>
+        <p class="mt-4">And I'm sorry to say: that's all for today, folks!</p>
+        <p class="my-4">
+          As a final footnote for today's devlog: I also decided to open source the prototypes. So
+          you can fully see me fumbling about. Writing all sorts of just-make-it-work code. You can
+          find <A href="https://github.com/pincrediball"
+            >all the repositories in the Pincrediball GitHub organization</A
+          >. And for my most loyal readers (hi mum!), here's a quick peek at it, with just a random
+          screenshot of me hacking about in prototype number three!
+        </p>
+        <a href="/img/pincrediball-prototype-003-part1b.png" target="_blank">
+          <img
+            src="/img/pincrediball-prototype-003-part1b.png"
+            alt="VSCode showing prototype-003 files"
+          />
+        </a>
+        <p class="mt-4">
+          Prototype 003 will likely get some more love the coming days. Stay tuned!
+        </p>
+      </div>
+
+      <hr class="opacity-50 my-8" />
+
       <div id="post-2023-02-20" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 8: Prototype 002</h2>
         <h3 class="font-bold mt-2">
@@ -271,6 +327,7 @@
         <!-- prettier-ignore -->
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts:</h2>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-21">Day 9: Prototype 003, part 1</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-20">Day 8: Prototype 002</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-17">Day 5: Prototype 001</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-16">Day 4: Engine's on!</a>
