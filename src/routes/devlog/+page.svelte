@@ -7,6 +7,37 @@
     <div class="">
       <p class="mb-2 text-sm">Latest post:</p>
 
+      <div id="post-2023-02-22" class="scroll-mt-24">
+        <h2 class="font-bold text-3xl">Day 10: Prototype 003, part 2</h2>
+        <h3 class="font-bold mt-2">
+          <span class="text-amber-500">Jeroen</span>, February 22, 2023
+        </h3>
+        <hr class="mt-2 opacity-5" />
+        <p class="mt-2">Well... that was a disaster!</p>
+        <p class="mt-4">
+          As warned by folks around me, and just as I already sortof knew would happen: <em
+            >rolling your own</em
+          > (engine) is a bad idea. Generally. And specifically, too (at least for this case).
+        </p>
+        <p class="mt-4">After a few hours of labor here's where I got:</p>
+        <!-- svelte-ignore a11y-media-has-caption -->
+        <video controls loop class="border-8 border-black/25 w-full lg:min-h-[400px]">
+          <source src="/img/pincrediball-prototype-003.mp4" type="video/mp4" />
+          <p>Video recording of an extremely crude demo pinball machine.</p>
+        </video>
+        <p class="mt-4">And then the mountain of work became visible.</p>
+        <p class="mt-4">
+          The smart thing to do? Enjoy a few other fun things in my sabbatical, let the project lie
+          down for a bit. I'll likely revitalize my enthusiasm for the project and go back to using
+          an existing engine. Possibly within this web app that's now set up.
+        </p>
+        <p class="mt-4">
+          Stay tuned for prototype <em>004</em> soon (?). I'm calling it an early day, on Day 10.
+        </p>
+      </div>
+
+      <hr class="opacity-50 my-8" />
+
       <div id="post-2023-02-21" class="scroll-mt-24">
         <h2 class="font-bold text-3xl">Day 9: Prototype 003, part 1</h2>
         <h3 class="font-bold mt-2">
@@ -327,6 +358,7 @@
         <!-- prettier-ignore -->
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts:</h2>
+          <a class="underline hover:text-amber-500" href="#post-2023-02-22">Day 10: Prototype 003, part 2</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-21">Day 9: Prototype 003, part 1</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-20">Day 8: Prototype 002</a>
           <a class="underline hover:text-amber-500" href="#post-2023-02-17">Day 5: Prototype 001</a>
