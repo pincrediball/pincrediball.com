@@ -8,7 +8,7 @@
 
 <div class="min-h-screen flex flex-col bg-gradient-to-b from-zinc-800 to-zinc-900 text-stone-50">
   <nav
-    class="bg-amber-400 text-zinc-900 border-b border-b-zinc-900 px-4 h-16 sticky top-0 shadow-firm"
+    class="bg-amber-400 text-zinc-900 border-b border-b-zinc-900 px-4 h-16 z-40 sticky top-0 shadow-firm"
   >
     <div class="flex items-center gap-1 h-full max-w-page mx-auto">
       <div class="flex flex-wrap items-center">
