@@ -1,4 +1,5 @@
 <script lang="ts">
+  import A from '$lib/components/A.svelte';
   import NavItem from '$lib/components/NavItem.svelte';
   import SvgMastodon from '$lib/components/SvgMastodon.svelte';
   import SvgTwitter from '$lib/components/SvgTwitter.svelte';
@@ -33,7 +34,10 @@
   <footer class="mt-auto">
     <div class="border-t-black/50 border-t bg-black/25">
       <div class="max-w-page mx-auto p-4">
-        <p class="opacity-50 text-xs">© 2023, Jeroen Heijmans | pincrediball.com</p>
+        <p class="opacity-50 text-xs">
+          © 2023, Jeroen Heijmans | pincrediball.com |
+          <A href="https://github.com/pincrediball/pincrediball.com">website source</A>
+        </p>
       </div>
     </div>
   </footer>
