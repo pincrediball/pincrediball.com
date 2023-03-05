@@ -40,9 +40,12 @@
         class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm sticky top-24"
       >
         <div class="p-4 flex flex-col gap-2">
-          <h2 class="text-xl font-bold">Links to all posts:</h2>
-          {#each data.posts as post}
-            <a class="underline hover:text-amber-500" href={`#${post.id}`}>{post.title}</a>
+          <h2 class="text-xl font-bold">Links to all posts</h2>
+          {#each data.postsGroupedByWeek as group}
+            <h3 class="font-bold mt-2">{group.key}</h3>
+            {#each group.posts as post}
+              <a class="underline hover:text-amber-500" href={`#${post.id}`}>{post.title}</a>
+            {/each}
           {/each}
         </div>
       </div>
