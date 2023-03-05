@@ -73,7 +73,7 @@
 </div>
 
 <div
-  class="px-4 xl:p-0 bg-gradient-to-r from-amber-400 to-amber-600 border-t-8 border-b-8 border-black/10 text-zinc-900"
+  class="px-4 mb-8 xl:p-0 bg-gradient-to-r from-amber-400 to-amber-600 border-t-8 border-b-8 border-black/10 text-zinc-900"
 >
   <div class="max-w-full mx-auto px-4 py-16 w-[1200px]">
     <h2 class="font-bold text-4xl sm:text-6xl">Road Map</h2>

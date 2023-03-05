@@ -1,10 +1,11 @@
 <script lang="ts">
   export let href: string;
+  export let dark = false;
 </script>
 
 <!-- prettier-ignore -->
 <a
-  class="text-orange-100 hover:text-orange-400"
+  class={dark ? 'a-internal-dark' : 'a-internal'}
   target="_blank"
   rel="noreferrer"
   {href}><span class="underline"

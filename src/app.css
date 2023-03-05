@@ -6,6 +6,9 @@
   .a-internal {
     @apply underline text-orange-100 hover:text-orange-500;
   }
+  .a-internal-dark {
+    @apply underline text-purple-900 hover:text-purple-700;
+  }
 }
 
 ::-webkit-scrollbar {
