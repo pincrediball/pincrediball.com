@@ -37,22 +37,24 @@ function getPosts(): Post[] {
       };
     });
 }
-const posts = getPosts();
 
-const postsGroupedByWeek: Group[] = posts.reduce((groups: Group[], post) => {
-  const [weekYear, weekNr] = getWeekNumber(post.date);
-  const key = `${weekYear}, week ${weekNr}`;
-  const group = groups.find((g) => g.key === key) || { key, posts: [] };
-  if (group.posts.length === 0) {
-    groups.push(group);
-  }
-  group.posts.push(post);
-  return groups;
-}, []);
+function groupPostsByWeek(posts: Post[]): Group[] {
+  return posts.reduce((groups: Group[], post) => {
+    const [weekYear, weekNr] = getWeekNumber(post.date);
+    const key = `${weekYear}, week ${weekNr}`;
+    const group = groups.find((g) => g.key === key) || { key, posts: [] };
+    if (group.posts.length === 0) {
+      groups.push(group);
+    }
+    group.posts.push(post);
+    return groups;
+  }, []);
+}
 
 export const load = (() => {
+  const posts = getPosts();
   return {
-    postsGroupedByWeek,
+    postsGroupedByWeek: groupPostsByWeek(posts),
     posts,
   };
 }) satisfies PageServerLoad;
