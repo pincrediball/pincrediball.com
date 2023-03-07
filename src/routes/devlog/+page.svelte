@@ -23,14 +23,16 @@
       <p class="mb-4 text-sm text-amber-500">Latest post:</p>
 
       {#each data.posts as post, idx}
-        <article id={post.id} class="scroll-mt-24 prose prose-invert max-w-none">
-          {@html marked(post.content)}
-        </article>
-        {#if idx === 0}
-          <hr class="my-8 border-t border-t-amber-400/50" />
-          <p class="mb-8 text-sm text-amber-500">Older posts:</p>
-        {:else}
-          <hr class="my-8 border-t border-t-amber-400/25" />
+        {#if !post.isDraft}
+          <article id={post.id} class="scroll-mt-24 prose prose-invert max-w-none">
+            {@html marked(post.content)}
+          </article>
+          {#if idx === 0}
+            <hr class="my-8 border-t border-t-amber-400/50" />
+            <p class="mb-8 text-sm text-amber-500">Older posts:</p>
+          {:else}
+            <hr class="my-8 border-t border-t-amber-400/25" />
+          {/if}
         {/if}
       {/each}
     </div>
@@ -44,7 +46,9 @@
           {#each data.postsGroupedByWeek as group}
             <h3 class="font-bold mt-2">{group.key}</h3>
             {#each group.posts as post}
-              <a class="underline hover:text-amber-500" href={`#${post.id}`}>{post.title}</a>
+              {#if !post.isDraft}
+                <a class="underline hover:text-amber-500" href={`#${post.id}`}>{post.title}</a>
+              {/if}
             {/each}
           {/each}
         </div>

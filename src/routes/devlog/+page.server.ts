@@ -12,6 +12,7 @@ function getTitle(content: string) {
 
 export type Post = {
   id: string;
+  isDraft: boolean;
   date: Date;
   title: string;
   content: string;
@@ -29,8 +30,10 @@ function getPosts(): Post[] {
       const date = new Date(`${dateString}T00:00:00.000Z`);
       const content = readFileSync(`content/devlog/${file}`, 'utf-8');
       const title = getTitle(content);
+      const isDraft = title.includes('(DRAFT)');
       return {
         id,
+        isDraft,
         date,
         title,
         content,
