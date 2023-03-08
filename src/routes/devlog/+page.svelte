@@ -27,7 +27,7 @@
           <article id={post.id} class="scroll-mt-24 prose prose-invert max-w-none">
             {@html marked(post.content)}
           </article>
-          {#if idx === 0}
+          {#if post.order === 1}
             <hr class="my-8 border-t border-t-amber-400/50" />
             <p class="mb-8 text-sm text-amber-500">Older posts:</p>
           {:else}

@@ -13,6 +13,7 @@ function getTitle(content: string) {
 export type Post = {
   id: string;
   isDraft: boolean;
+  order: number | null;
   date: Date;
   title: string;
   content: string;
@@ -21,6 +22,7 @@ export type Post = {
 export type Group = { key: string; posts: Post[] };
 
 function getPosts(): Post[] {
+  let postOrder = 1;
   return readdirSync('content/devlog')
     .filter((f) => f.endsWith('.md'))
     .reverse()
@@ -31,9 +33,11 @@ function getPosts(): Post[] {
       const content = readFileSync(`content/devlog/${file}`, 'utf-8');
       const title = getTitle(content);
       const isDraft = title.includes('(DRAFT)');
+      const order = isDraft ? null : postOrder++;
       return {
         id,
         isDraft,
+        order,
         date,
         title,
         content,
