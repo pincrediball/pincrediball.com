@@ -9,6 +9,9 @@
   .a-internal-dark {
     @apply underline text-purple-900 hover:text-purple-700;
   }
+  .a-toc {
+    @apply underline hover:text-amber-500;
+  }
 }
 
 ::-webkit-scrollbar {

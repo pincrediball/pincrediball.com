@@ -2,14 +2,14 @@
 
 A non-exhaustive list of resources that were used while building Pincrediball.
 
-### Game Store Pages
+### 🟡 Game Store Pages
 
 It's not quite there yet, but there will be two most important links, so let's reserve some space for them:
 
 - To be created: **Pincrediball Steam Store page**.
 - To be created: **Pincrediball Itch.io page**.
 
-### Own content
+### 🌍 Own content
 
 A list of links to Pincrediball's stuff (duplicated from [the Contact page](/contact)):
 
@@ -24,7 +24,7 @@ Creator home page (which further links to all related stuff):
 
 - [JeroenHeijmans.nl](https://jeroenheijmans.nl)
 
-### Godot (game engine)
+### 🤖 Godot (game engine)
 
 The second game engine I tried for Pincrediball, with a list of used resources:
 
@@ -50,7 +50,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
 - My own Q&A and other similar posts
   - ["Equivalent of RigidBody2D's body_exited on StaticBody2D?"](https://gamedev.stackexchange.com/q/204774/16701)
 
-### Phaser (game engine)
+### 🔫 Phaser (game engine)
 
 The first game engine I tried for Pincrediball, here's a list of resources used:
 
@@ -78,7 +78,7 @@ The first game engine I tried for Pincrediball, here's a list of resources used:
 - My own Q&A and other similar posts
   - ["How to make object movable only by the player?"](https://gamedev.stackexchange.com/q/204691/16701)
 
-### Game Development
+### 🛠 Game Development
 
 Generic game development resources:
 
@@ -91,7 +91,7 @@ Generic game development resources:
   - [The Beauty of Bezier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw)
   - [Writing a physics engine from scratch](https://www.youtube.com/watch?v=lS_qeBy3aQI)
 
-### Pinball Machines
+### 🟣 Pinball Machines
 
 Generic resources about Pinball.
 
@@ -112,7 +112,7 @@ Generic resources about Pinball.
   - [Top 10 Pinball Machines by WatchMojo](https://www.youtube.com/watch?v=tDYmKpHfgtQ)
   - [Vox: Pinball isn't as random as it seems](https://www.youtube.com/watch?v=T1zzyGhA4-g)
 
-### Tools used
+### ⚙ Tools used
 
 In addition to the game engines above, the following generic tools were used in making Pincrediball and its website:
 

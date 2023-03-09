@@ -5,6 +5,7 @@
   export let data: PageData;
 
   // TODO: De-duplicate this logic with devlog page
+  const slugger = new marked.Slugger();
   marked.use({ renderer: new marked.Renderer() });
   marked.use({
     renderer: {
@@ -13,6 +14,13 @@
           return `<a target="_blank" href='${href}'>${text}</span><sup class="text-xs no-underline">↗</sup></a>`;
         }
         return false; // fallback to default renderer
+      },
+      heading: (text, level) => {
+        // TODO: Preserve these slugs outside the renderer to generate a Table of Contents.
+        // TODO: Allow prefixes to the slug per section of bookmarks
+        const simpleText = text.replace(/[^a-zA-Z\d\s\-]/g, '').trim();
+        const slug = slugger.slug(simpleText);
+        return `<h${level} id="${slug}" class="scroll-mt-24">${text}</h${level}>`;
       },
     },
   });
@@ -35,8 +43,25 @@
       >
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Table of Contents</h2>
-          <a href="#bookmarks" class="underline hover:text-amber-500">Bookmarks</a>
-          <a href="#glossary" class="underline hover:text-amber-500">Glossary</a>
+          <!-- TODO: Generate this automatically -->
+          <ul class="flex flex-col gap-4">
+            <li>
+              <a href="#bookmarks" class="a-toc">Bookmarks</a>
+              <!-- prettier-ignore -->
+              <ul class="flex flex-col gap-2 ml-8 mt-2 list-disc">
+                <li>🟡 <a class="a-toc" href="#game-store-pages">Game Store Pages</a></li>
+                <li>🌍 <a class="a-toc" href="#own-content">Own content</a></li>
+                <li>🤖 <a class="a-toc" href="#godot-game-engine">Godot (game engine)</a></li>
+                <li>🔫 <a class="a-toc" href="#phaser-game-engine">Phaser (game engine)</a></li>
+                <li>🛠 <a class="a-toc" href="#game-development">Game Development</a></li>
+                <li>🟣 <a class="a-toc" href="#pinball-machines">Pinball Machines</a></li>
+                <li>⚙ <a class="a-toc" href="#tools-used">Tools used</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#glossary" class="a-toc">Glossary</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
