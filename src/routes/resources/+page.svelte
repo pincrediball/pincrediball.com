@@ -26,18 +26,9 @@
   });
 </script>
 
-<div class="w-[1200px] max-w-full mx-auto px-4 pt-12 pb-16 page-container">
+<div class="w-[1200px] max-w-full mx-auto px-4 pt-8 md:pt-12 pb-16 page-container">
   <div class="grid md:grid-cols-[2fr_1fr] grid-cols-1 w-full gap-4 lg:gap-16">
-    <div>
-      <article id="bookmarks" class="scroll-mt-24 prose prose-invert">
-        {@html marked(data.bookmarks.content)}
-      </article>
-      <hr class="my-8 border-t border-t-amber-400/50" />
-      <article id="glossary" class="scroll-mt-24 prose prose-invert mt-16">
-        {@html marked(data.glossary.content)}
-      </article>
-    </div>
-    <div>
+    <div class="order-first md:order-last mb-4">
       <div
         class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm sticky top-24"
       >
@@ -69,6 +60,15 @@
           </ul>
         </div>
       </div>
+    </div>
+    <div>
+      <article id="bookmarks" class="scroll-mt-24 prose prose-invert">
+        {@html marked(data.bookmarks.content)}
+      </article>
+      <hr class="my-8 border-t border-t-amber-400/50" />
+      <article id="glossary" class="scroll-mt-24 prose prose-invert mt-16">
+        {@html marked(data.glossary.content)}
+      </article>
     </div>
   </div>
 </div>
