@@ -119,7 +119,7 @@ In addition to the game engines above, the following generic tools were used in 
 - [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/), using [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/) with the [Typography plugin](https://tailwindcss.com/docs/typography-plugin)
 - The [Inter typeface family](https://rsms.me/inter/)
-- [Marked.js](https://github.com/markedjs/marked)
+- [Marked.js](https://marked.js.org/)
 - [VSCode](https://code.visualstudio.com/)
 - [MarkdownLint](https://github.com/DavidAnson/vscode-markdownlint)
 - [SpellChecker](https://streetsidesoftware.com/vscode-spell-checker/)

@@ -59,7 +59,7 @@
               </ul>
             </li>
             <li>
-              <a href="#glossary" class="a-toc">Glossary</a>
+              <a href="#glossary" class="a-toc">Pinball Glossary</a>
             </li>
           </ul>
         </div>
