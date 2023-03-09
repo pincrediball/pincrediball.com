@@ -881,6 +881,13 @@ video {
   --tw-text-opacity: 1;
   color: rgb(126 34 206 / var(--tw-text-opacity));
 }
+.a-toc {
+  text-decoration-line: underline;
+}
+.a-toc:hover {
+  --tw-text-opacity: 1;
+  color: rgb(245 158 11 / var(--tw-text-opacity));
+}
 .absolute {
   position: absolute;
 }
@@ -929,6 +936,9 @@ video {
 }
 .ml-auto {
   margin-left: auto;
+}
+.mt-16 {
+  margin-top: 4rem;
 }
 .mt-2 {
   margin-top: 0.5rem;
