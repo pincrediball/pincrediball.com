@@ -11,14 +11,14 @@ It's not quite there yet, but there will be two most important links, so let's r
 
 ### Own content
 
-A list of links to Pincrediball's stuff (some of it duplicated from [the Contact page](/contact)):
+A list of links to Pincrediball's stuff (duplicated from [the Contact page](/contact)):
 
 - [Pincrediball.com](https://pincrediball.com)
 - [Mastodon account @pincrediball@mastodon.social](https://mastodon.social/@pincrediball)
 - [Twitter account @pincrediball](https://twitter.com/pincrediball)
 - [Subreddit /r/pincrediball](https://www.reddit.com/r/pincrediball/)
 - [YouTube channel /@pincrediball](https://www.youtube.com/@pincrediball)
-- [GitHub organization /pincrediball](https://github.com/pincrediball) for who's interested!
+- [GitHub organization /pincrediball](https://github.com/pincrediball), should anyone be interested in such a thing...
 
 Creator home page (which further links to all related stuff):
 
@@ -28,15 +28,15 @@ Creator home page (which further links to all related stuff):
 
 The second game engine I tried for Pincrediball, with a list of used resources:
 
-- Official resources:
+- Official resources
   - [GodotEngine.org](https://godotengine.org/): the home page.
   - [Godot Engine - Q&A: Bezier Curves for Collision Shapes](https://godotengine.org/qa/23638/why-arent-there-bezier-curves-for-collision-shape-creation)
   - [Godot subreddit - Q&A: Bezier Curves for Collision Shapes](https://www.reddit.com/r/godot/comments/bbj4sv/creating_a_curved_collision_shape_2d/)
-- GDQuest, an organization with strong focus on Godot resources:
+- GDQuest, an organization with strong focus on Godot resources
   - [GDQuest.com](https://www.gdquest.com/) home page
   - [YouTube channel @GDQuest](https://www.youtube.com/@Gdquest)
   - [Godot 4.0 Release - YouTube overview](https://www.youtube.com/watch?v=chXAjMQrcZk)
-- YouTube tutorials:
+- YouTube tutorials
   - [Godot Area2D Beginner tutorial](https://www.youtube.com/watch?v=cQyyD-ykAHU)
   - [Godot 2D Curved Terrain](https://www.youtube.com/watch?v=45PldDNCQhw) (with a plugin)
   - [Godot Drag & Drop Inventory System](https://www.youtube.com/watch?v=dZYlwmBCziM)
@@ -45,7 +45,9 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot GDScript vs C#](https://www.youtube.com/watch?v=zq7lsT-phx8)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
-- My own Q&A and other similar posts:
+- Other stuff
+  - [Godot 3.x Pinball Game](https://github.com/dbisdorf/professor-pinball) published under the MIT license (used for learning Godot techniques)
+- My own Q&A and other similar posts
   - ["Equivalent of RigidBody2D's body_exited on StaticBody2D?"](https://gamedev.stackexchange.com/q/204774/16701)
 
 ### Phaser (game engine)
@@ -63,7 +65,8 @@ The first game engine I tried for Pincrediball, here's a list of resources used:
   - [Phaser 3 Box2D via Planck.js blog post](https://www.emanueleferonato.com/2019/10/12/use-box2d-physics-in-your-phaser-3-projects-with-planck-js-javascript-physics-engine/)
   - [Planck.js (Box2D port) home page](https://piqnt.com/planck.js/)
   - [Planck.js (Box2D port) on GitHub](https://github.com/shakiba/planck.js)
-- [Ourcade](https://ourcade.co/): an organization around GameDev with a focus on Phaser
+- OurCade, an organization with focus on Phaser resources
+  - [Ourcade.co](https://ourcade.co/) home page
   - [github.com/ourcade](https://github.com/ourcade)
   - [YouTube: Phaser 3 Game in TypeScript](https://www.youtube.com/watch?v=tFkMxzHwmDw)
   - [YouTube: Phaser 3 vs Kaboom.js](https://www.youtube.com/watch?v=g4slFm0lows)
@@ -72,7 +75,7 @@ The first game engine I tried for Pincrediball, here's a list of resources used:
 - Other resources
   - [YouTube: Phaser 3 with Next.js](https://www.youtube.com/watch?v=xRJ787usR5s)
   - [YouTube: Matter.js physics and Mouse Constraints](https://www.youtube.com/watch?v=W-ou_sVlTWk)
-- My own Q&A and other similar posts:
+- My own Q&A and other similar posts
   - ["How to make object movable only by the player?"](https://gamedev.stackexchange.com/q/204691/16701)
 
 ### Game Development
@@ -90,9 +93,9 @@ Generic game development resources:
 
 ### Pinball Machines
 
-Generic resources about Pinball:
+Generic resources about Pinball.
 
-- Glossaries
+- Glossaries (also used for [Pincrediball's own Glossary](/resources#glossary))
   - [Glossary on Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_pinball_terms)
   - [Glossary on "The Internet Pinball Machine Database"](https://www.ipdb.org/glossary.php)
 - YouTube
@@ -108,3 +111,21 @@ Generic resources about Pinball:
   - [Top 10 Pinball Machines by CaptNRetro](https://www.youtube.com/watch?v=5b1a0pagrag)
   - [Top 10 Pinball Machines by WatchMojo](https://www.youtube.com/watch?v=tDYmKpHfgtQ)
   - [Vox: Pinball isn't as random as it seems](https://www.youtube.com/watch?v=T1zzyGhA4-g)
+
+### Tools used
+
+In addition to the game engines above, the following generic tools were used in making Pincrediball and its website:
+
+- [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/), using [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/) with the [Typography plugin](https://tailwindcss.com/docs/typography-plugin)
+- The [Inter typeface family](https://rsms.me/inter/)
+- [Marked.js](https://github.com/markedjs/marked)
+- [VSCode](https://code.visualstudio.com/)
+- [MarkdownLint](https://github.com/DavidAnson/vscode-markdownlint)
+- [SpellChecker](https://streetsidesoftware.com/vscode-spell-checker/)
+- [Prettier](https://prettier.io/)
+- [GitHub Pages](https://pages.github.com/)
+- [ScreenToGif](https://www.screentogif.com/)
+- [Paint .NET](https://www.getpaint.net/)
+- [PicPick](https://picpick.app/)
+- [Figma](https://www.figma.com/)
