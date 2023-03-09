@@ -60,6 +60,11 @@
             </li>
             <li>
               <a href="#glossary" class="a-toc">Pinball Glossary</a>
+              <ul class="flex flex-col gap-2 ml-8 mt-2 list-disc">
+                <li>📦 <a class="a-toc" href="#machine-components">Machine Components</a></li>
+                <li>🔀 <a class="a-toc" href="#game-mechanics">Game Mechanics</a></li>
+                <li>🖐 <a class="a-toc" href="#pinball-skills">Pinball Skills</a></li>
+              </ul>
             </li>
           </ul>
         </div>

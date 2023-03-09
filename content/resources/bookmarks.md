@@ -98,6 +98,7 @@ Generic resources about Pinball.
 - Glossaries (also used for [Pincrediball's own Glossary](/resources#glossary))
   - [Glossary on Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_pinball_terms)
   - [Glossary on "The Internet Pinball Machine Database"](https://www.ipdb.org/glossary.php)
+  - [YouTube glossary with visuals](https://www.youtube.com/watch?v=oAvPRYkHQLY)
 - YouTube
   - [Pinball Machine in Slow Motion](https://www.youtube.com/watch?v=Tmg5WOvPKpU) by The Slow Mo Guys
   - [Pinball Flipper Skills (playlist)](https://www.youtube.com/watch?v=r_7TQ6wRZdw&list=PL-WQLGFMr97DnxeE1Rmi-wAwa-Vm7D-7i)
