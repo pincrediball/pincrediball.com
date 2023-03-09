@@ -21,10 +21,11 @@
 <div class="w-[1200px] max-w-full mx-auto px-4 pt-12 pb-16 page-container">
   <div class="grid md:grid-cols-[2fr_1fr] grid-cols-1 w-full gap-4 lg:gap-16">
     <div>
-      <article id="bookmarks" class="prose prose-invert">
+      <article id="bookmarks" class="scroll-mt-24 prose prose-invert">
         {@html marked(data.bookmarks.content)}
       </article>
-      <article id="glossary" class="prose prose-invert mt-16">
+      <hr class="my-8 border-t border-t-amber-400/50" />
+      <article id="glossary" class="scroll-mt-24 prose prose-invert mt-16">
         {@html marked(data.glossary.content)}
       </article>
     </div>
