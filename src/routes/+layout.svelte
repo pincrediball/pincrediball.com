@@ -18,6 +18,7 @@
         </NavItem>
         <NavItem href="/"><span class="hidden sm:inline">The </span>Game</NavItem>
         <NavItem href="/devlog">Devlog</NavItem>
+        <NavItem href="/resources">Resources</NavItem>
         <NavItem href="/contact">Contact</NavItem>
       </div>
       <div class="ml-auto flex h-full items-center gap-2">
