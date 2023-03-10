@@ -41,6 +41,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot 2D Curved Terrain](https://www.youtube.com/watch?v=45PldDNCQhw) (with a plugin)
   - [Godot Drag & Drop Inventory System](https://www.youtube.com/watch?v=dZYlwmBCziM)
   - [Godot Drag, Drop, and Snap](https://www.youtube.com/watch?v=oN_28jlj8j4)
+  - [Godot Inventory Tutorial](https://www.youtube.com/watch?v=rdUgf6r7w2Q) (and the [related GitHub repository](https://github.com/uheartbeast/inventory-tutorial))
   - [Godot Smooth Drag & Drop](https://www.youtube.com/watch?v=iSpWZzL2i1o)
   - [Godot GDScript vs C#](https://www.youtube.com/watch?v=zq7lsT-phx8)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
@@ -49,6 +50,8 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot 3.x Pinball Game](https://github.com/dbisdorf/professor-pinball) published under the MIT license (used for learning Godot techniques)
 - My own Q&A and other similar posts
   - ["Equivalent of RigidBody2D's body_exited on StaticBody2D?"](https://gamedev.stackexchange.com/q/204774/16701)
+  - ["What's the difference between VBoxContainer and VFlowContainer?"](https://gamedev.stackexchange.com/q/204805/16701)
+  - ["Drag and drop differences between Godot 3 and 4?"](https://gamedev.stackexchange.com/q/204808/16701)
 
 ### 🔫 Phaser (game engine)
 
