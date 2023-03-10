@@ -903,6 +903,9 @@ video {
 .z-40 {
   z-index: 40;
 }
+.order-first {
+  order: -9999;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1188,6 +1191,9 @@ video {
 .pt-12 {
   padding-top: 3rem;
 }
+.pt-8 {
+  padding-top: 2rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1339,6 +1345,10 @@ video {
 }
 @media (min-width: 768px) {
 
+  .md\:order-last {
+    order: 9999;
+  }
+
   .md\:min-h-\[36rem\] {
     min-height: 36rem;
   }
@@ -1365,6 +1375,10 @@ video {
 
   .md\:pb-32 {
     padding-bottom: 8rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 
   .md\:pt-16 {
