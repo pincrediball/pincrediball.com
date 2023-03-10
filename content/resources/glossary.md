@@ -3,7 +3,7 @@
 This will be a Pinball glossary, with _only_ the terms that are relevant to Pincrediball.
 It's by no means exhaustive, on purpose.
 
-### 📦 Machine Components
+### Machine Components
 
 - **Pinball Machines** consist of a main "**Cabinet**" with the main **Playfield**, and a **Backbox** with usually a **Display** (which might be a **"DMD"** (**Dot-Matrix-Display**)).
 - The **Plunger** is the device that sends the ball initially into play from the **Plunger (or "Shooter") Lane**.
@@ -29,7 +29,7 @@ It's by no means exhaustive, on purpose.
 - **Newton's Cradle** is usually a "**Captive Ball**", trapped in a small lane, when hit by the active ball will move along the lane for points.
 - A **Toy** is any special unique component specific to the theme of a table, with special visual and game or quest effects.
 
-### 🔀 Game Mechanics
+### Game Mechanics
 
 - **Draining** a ball means it'll roll down to the **Trough** at the bottom, loosing that specific ball from play.
 - **Tilting** happens when the machine is physically bumped to nudge the ball a bit.
@@ -45,7 +45,7 @@ It's by no means exhaustive, on purpose.
 - **Ball Saver** can refer to a limited time period after **plunging**, in which a **drained** ball will freely be returned into play.
 - **Ball Saver** can refer to a specific physical device between and just below the two flippers to bounce the ball back up and "save" it from **draining**.
 
-### 🖐 Pinball Skills
+### Pinball Skills
 
 - **Dead Bounce** means letting the ball purposely bounce of a flipper that's _not_ being activated, to loosely let it bounce to the other flipper.
 - **Death Saves** are tilting the machine slightly when the ball is rolling through an **Outlane** to **Drain**, bumping it back up sneaking it back into play.

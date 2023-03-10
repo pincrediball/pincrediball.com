@@ -1,20 +1,8 @@
 <script lang="ts">
-  import { marked } from 'marked';
+  import { markdownToHtml } from '$lib/marked';
   import type { PageData } from './$types';
 
   export let data: PageData;
-
-  marked.use({ renderer: new marked.Renderer() });
-  marked.use({
-    renderer: {
-      link: (href, _title, text) => {
-        if (href?.startsWith('http')) {
-          return `<a target="_blank" href='${href}'>${text}</span><sup class="text-xs no-underline">↗</sup></a>`;
-        }
-        return false; // fallback to default renderer
-      },
-    },
-  });
 </script>
 
 <div class="w-[1200px] max-w-full mx-auto px-4 pt-12 pb-16 page-container">
@@ -25,7 +13,7 @@
       {#each data.posts as post, idx}
         {#if !post.isDraft}
           <article id={post.id} class="scroll-mt-24 prose prose-invert max-w-none">
-            {@html marked(post.content)}
+            {@html markdownToHtml(post.content).html}
           </article>
           {#if post.order === 1}
             <hr class="my-8 border-t border-t-amber-400/50" />
