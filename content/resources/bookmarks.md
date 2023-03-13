@@ -44,6 +44,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot Inventory Tutorial](https://www.youtube.com/watch?v=rdUgf6r7w2Q) (and the [related GitHub repository](https://github.com/uheartbeast/inventory-tutorial))
   - [Godot Smooth Drag & Drop](https://www.youtube.com/watch?v=iSpWZzL2i1o)
   - [Godot GDScript vs C#](https://www.youtube.com/watch?v=zq7lsT-phx8)
+  - [Godot RigidBody and Forces](https://www.youtube.com/watch?v=XSFkAzXQSWE)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
 - Other stuff
@@ -86,6 +87,7 @@ The first game engine I tried for Pincrediball, here's a list of resources used:
 Generic game development resources:
 
 - [OpenGameArt.org](https://opengameart.org/)
+- [Game Development Stack Exchange](https://gamedev.stackexchange.com/)
 - YouTube
   - [Lightweight comparison of 8 game engines](https://www.youtube.com/watch?v=MASAqbRMnaM)
   - [Lightweight comparison of Godot, Unity, and Unreal Engine](https://www.youtube.com/watch?v=dphuMHYH_VY)
@@ -112,6 +114,7 @@ Generic resources about Pinball.
   - [Tutorial for the Addams Family Pinball Machine](https://www.youtube.com/watch?v=XSw7fK6x1mw)
   - [Tutorial for the Medieval Madness Pinball Machine](https://www.youtube.com/watch?v=6wb_x3q3z14&t=866s)
   - [Pinball Coffee Table build](https://www.youtube.com/watch?v=DmYrqO6teW8)
+  - [Pinball Machine with wood and Arduino's](https://www.youtube.com/watch?v=y2FeiB1704w)
   - [Top 10 Pinball Machines by CaptNRetro](https://www.youtube.com/watch?v=5b1a0pagrag)
   - [Top 10 Pinball Machines by WatchMojo](https://www.youtube.com/watch?v=tDYmKpHfgtQ)
   - [Vox: Pinball isn't as random as it seems](https://www.youtube.com/watch?v=T1zzyGhA4-g)
