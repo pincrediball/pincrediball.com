@@ -1,4 +1,5 @@
 <script>
+  import A from '$lib/components/A.svelte';
   import StayUpToDate from '$lib/components/StayUpToDate.svelte';
 </script>
 
@@ -8,7 +9,7 @@
   <div class="text-center my-auto">
     <img
       src="/img/header-title-only.png"
-      alt="'Pincreciball' in bright orange letters"
+      alt="'Pincrediball' in bright orange letters"
       class="inline-block"
     />
   </div>
@@ -78,10 +79,13 @@
   <div class="max-w-full mx-auto px-4 py-16 w-[1200px]">
     <h2 class="font-bold text-4xl sm:text-6xl">Road Map</h2>
     <p class="mt-4 text-xl">
-      What's quite sure is that the design and idea will be completed during Q1-2023. What's less
-      sure is when (or if) the rest of the game will be completed. Because it's a side-project,
-      which should remain fun at all times! But be sure to let me know if you're looking forward to
-      the end result; that might push me to maybe complete the game... Who knows!?
+      What's quite sure is that the design and idea will be completed during Q1-2023 (you can follow
+      active progress on the <A dark href="https://github.com/orgs/pincrediball/projects/1/views/1"
+        >GitHub Kanban Board</A
+      >). What's less sure is when (or if) the rest of the game will be completed. Because it's a
+      side-project, which should remain fun at all times! But be sure to let me know if you're
+      looking forward to the end result; that might push me to maybe complete the game... Who
+      knows!?
     </p>
     <div class="flex flex-wrap md:flex-nowrap gap-4 mt-8">
       <div
