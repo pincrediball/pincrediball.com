@@ -53,6 +53,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["Equivalent of RigidBody2D's body_exited on StaticBody2D?"](https://gamedev.stackexchange.com/q/204774/16701)
   - ["What's the difference between VBoxContainer and VFlowContainer?"](https://gamedev.stackexchange.com/q/204805/16701)
   - ["Drag and drop differences between Godot 3 and 4?"](https://gamedev.stackexchange.com/q/204808/16701)
+  - ["How to use 'Debanding' option to prevent color banding in a gradient TextureRect?"](https://gamedev.stackexchange.com/q/204876/16701)
 
 ### Phaser (game engine)
 
