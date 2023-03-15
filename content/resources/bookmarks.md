@@ -54,6 +54,8 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["What's the difference between VBoxContainer and VFlowContainer?"](https://gamedev.stackexchange.com/q/204805/16701)
   - ["Drag and drop differences between Godot 3 and 4?"](https://gamedev.stackexchange.com/q/204808/16701)
   - ["How to use 'Debanding' option to prevent color banding in a gradient TextureRect?"](https://gamedev.stackexchange.com/q/204876/16701)
+  - ["Start debug window on other monitor than the Godot editor"](https://gamedev.stackexchange.com/q/204887/16701)
+  - ["Containers causing unexpected physics in child Node2D bodies"](https://github.com/godotengine/godot/issues/74940)
 
 ### Phaser (game engine)
 
