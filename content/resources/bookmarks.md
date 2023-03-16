@@ -49,6 +49,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
 - Other stuff
   - [Godot 3.x Pinball Game](https://github.com/dbisdorf/professor-pinball) published under the MIT license (used for learning Godot techniques)
+  - [Community thread about "Deterministic Physics"](https://godotengine.org/qa/50533/making-physics-fully-deterministic)
 - My own Q&A and other similar posts
   - ["Equivalent of RigidBody2D's body_exited on StaticBody2D?"](https://gamedev.stackexchange.com/q/204774/16701)
   - ["What's the difference between VBoxContainer and VFlowContainer?"](https://gamedev.stackexchange.com/q/204805/16701)
@@ -56,6 +57,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["How to use 'Debanding' option to prevent color banding in a gradient TextureRect?"](https://gamedev.stackexchange.com/q/204876/16701)
   - ["Start debug window on other monitor than the Godot editor"](https://gamedev.stackexchange.com/q/204887/16701)
   - ["Containers causing unexpected physics in child Node2D bodies"](https://github.com/godotengine/godot/issues/74940)
+  - ["How to get equivalent of "padding" on a button?"](https://gamedev.stackexchange.com/q/204897/16701)
 
 ### Phaser (game engine)
 
@@ -109,6 +111,7 @@ Generic resources about Pinball.
   - [YouTube glossary with visuals](https://www.youtube.com/watch?v=oAvPRYkHQLY)
 - YouTube
   - [Pinball Machine in Slow Motion](https://www.youtube.com/watch?v=Tmg5WOvPKpU) by The Slow Mo Guys
+  - [Pinball Machine Slingshot assembly](https://www.youtube.com/watch?v=RGDVdWzWA2M)
   - [Pinball Flipper Skills (playlist)](https://www.youtube.com/watch?v=r_7TQ6wRZdw&list=PL-WQLGFMr97DnxeE1Rmi-wAwa-Vm7D-7i)
   - [Pinball Flipper Skills (short summary)](https://www.youtube.com/watch?v=krnjVxe4iN0)
   - [Pinball Machine parts and components](https://www.youtube.com/watch?v=2CpUgC-yOFg)
