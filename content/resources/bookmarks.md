@@ -45,6 +45,8 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot Smooth Drag & Drop](https://www.youtube.com/watch?v=iSpWZzL2i1o)
   - [Godot GDScript vs C#](https://www.youtube.com/watch?v=zq7lsT-phx8)
   - [Godot RigidBody and Forces](https://www.youtube.com/watch?v=XSFkAzXQSWE)
+  - [Godot sfxr for dynamic sound effects](https://www.youtube.com/watch?v=q1jVDXBAjSo)
+  - [Godot Sound Effects in 3 Minutes](https://www.youtube.com/watch?v=30fCw3qZCNw)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
 - Other stuff
@@ -58,6 +60,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["Start debug window on other monitor than the Godot editor"](https://gamedev.stackexchange.com/q/204887/16701)
   - ["Containers causing unexpected physics in child Node2D bodies"](https://github.com/godotengine/godot/issues/74940)
   - ["How to get equivalent of "padding" on a button?"](https://gamedev.stackexchange.com/q/204897/16701)
+  - ["Utilize type hints over duck-typing for "@export var" for custom resource"](https://gamedev.stackexchange.com/q/204908/16701)
 
 ### Phaser (game engine)
 
@@ -92,6 +95,8 @@ The first game engine I tried for Pincrediball, here's a list of resources used:
 Generic game development resources:
 
 - [OpenGameArt.org](https://opengameart.org/)
+- [sfxr.me](https://sfxr.me/), web-based version of sfxr, to generate 8-bit sound effects
+- [FreeMusicArchive.org](https://freemusicarchive.org/)
 - [Game Development Stack Exchange](https://gamedev.stackexchange.com/)
 - YouTube
   - [Lightweight comparison of 8 game engines](https://www.youtube.com/watch?v=MASAqbRMnaM)
