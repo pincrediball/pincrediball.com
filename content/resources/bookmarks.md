@@ -61,6 +61,9 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["Containers causing unexpected physics in child Node2D bodies"](https://github.com/godotengine/godot/issues/74940)
   - ["How to get equivalent of "padding" on a button?"](https://gamedev.stackexchange.com/q/204897/16701)
   - ["Utilize type hints over duck-typing for "@export var" for custom resource"](https://gamedev.stackexchange.com/q/204908/16701)
+  - ["Drag & Drop between Control and Node2D nodes"](https://godotengine.org/qa/68370/implement-drag-drop-node2d-from-control-node-space-vice-versa?show=149810#a149810)
+    (also made into a related [sample repository](https://github.com/jeroenheijmans/sample-godot-drag-drop-from-control-to-node2d))
+  - ["Define 2D polygon area and check if point is inside at runtime"](https://gamedev.stackexchange.com/q/204961/16701)
 
 ### Phaser (game engine)
 

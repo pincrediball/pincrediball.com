@@ -16,7 +16,7 @@ It's by no means exhaustive, on purpose.
   A "**Dead**" or "**Passive**" bumper won't give the ball extra speed, but will register a hit (e.g. for points).
 - **Drop Targets** are upright pieces that drop down the playfield when hit.
   They're often in groups of three or more, forming a **(Drop Target) "Bank"**.
-- **Rails** (also "**Habitrail**" or "**Wireform**") are usually two or four metal wires that guide the ball along a specific path.
+- **Rails** (also "**Habitrail**" or "**Wire-form**") are usually two or four metal wires that guide the ball along a specific path.
 - **Kickback** is a launching device often placed in **Outlanes** which (when enabled) "kicks back" the ball into play.
 - **Lanes** are like car lanes: long paths just wide enough for a ball to roll through.
   **Outlanes** are the lanes on the side of the machine that typically will **Drain** the ball.
@@ -42,8 +42,8 @@ It's by no means exhaustive, on purpose.
 - **Multi-ball** is a mode where the game enters extra balls (beyond the usual single ball) into play, typically accompanied by bonus scoring for specific targets.
 - A **Ball-lock** is when the machine allows "locking" the current ball (and providing a fresh active ball),
   so when enough balls are locked a **Multi-ball** may be started.
-- **Ball Saver** can refer to a limited time period after **plunging**, in which a **drained** ball will freely be returned into play.
-- **Ball Saver** can refer to a specific physical device between and just below the two flippers to bounce the ball back up and "save" it from **draining**.
+- **Ball Saver** (option 1) can refer to a limited time period after **plunging**, in which a **drained** ball will freely be returned into play.
+- **Ball Saver** (option 2) can refer to a specific physical device between -and just below- the two flippers, to bounce the ball back up and "save" it from **draining**.
 
 ### Pinball Skills
 
