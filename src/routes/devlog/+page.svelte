@@ -46,6 +46,13 @@
 </div>
 
 <style lang="postcss">
+  .page-container :global(.prose h2),
+  .page-container :global(.prose h3),
+  .page-container :global(.prose h4),
+  .page-container :global(.prose h5),
+  .page-container :global(.prose h6) {
+    @apply scroll-mt-24;
+  }
   .page-container :global(.prose h2) {
     @apply mb-2;
   }
