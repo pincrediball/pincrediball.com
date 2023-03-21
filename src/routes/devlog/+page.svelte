@@ -46,10 +46,13 @@
 </div>
 
 <style lang="postcss">
+  .page-container :global(.prose h2) {
+    @apply mb-2;
+  }
   .page-container :global(.prose h2 + h3) {
     @apply -mt-4 pb-2 text-lg border-b border-slate-50/10;
   }
-  .page-container :global(.prose h2 + h3 strong) {
+  .page-container :global(.prose h2 + p strong em) {
     @apply text-amber-500;
   }
   .page-container :global(.prose img) {
