@@ -64,6 +64,8 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["Drag & Drop between Control and Node2D nodes"](https://godotengine.org/qa/68370/implement-drag-drop-node2d-from-control-node-space-vice-versa?show=149810#a149810)
     (also made into a related [sample repository](https://github.com/jeroenheijmans/sample-godot-drag-drop-from-control-to-node2d))
   - ["Define 2D polygon area and check if point is inside at runtime"](https://gamedev.stackexchange.com/q/204961/16701)
+  - ["See connected signals for instantiated Node while in Debug mode"](https://gamedev.stackexchange.com/q/204967/16701)
+  - [Sample repository for SubViewports with Pickable bodies that have InputEvents](https://github.com/jeroenheijmans/sample-godot-sub-viewport-and-input-events)
 
 ### Phaser (game engine)
 
