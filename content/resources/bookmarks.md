@@ -47,9 +47,12 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot RigidBody and Forces](https://www.youtube.com/watch?v=XSFkAzXQSWE)
   - [Godot sfxr for dynamic sound effects](https://www.youtube.com/watch?v=q1jVDXBAjSo)
   - [Godot Sound Effects in 3 Minutes](https://www.youtube.com/watch?v=30fCw3qZCNw)
+  - [Godot Shaders explanation part 1](https://www.youtube.com/watch?v=1pJyYtBAHks)
+  - [Godot Shaders explanation part 2](https://www.youtube.com/watch?v=KVTa2xkly1g)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
 - Other stuff
+  - [GDQuest's godot-shaders (MIT licensed) repository](https://github.com/GDQuest/godot-shaders)
   - [Godot 3.x Pinball Game](https://github.com/dbisdorf/professor-pinball) published under the MIT license (used for learning Godot techniques)
   - [Community thread about "Deterministic Physics"](https://godotengine.org/qa/50533/making-physics-fully-deterministic)
 - My own Q&A and other similar posts
