@@ -27,7 +27,7 @@
 
     <div>
       <div
-        class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm sticky top-24"
+        class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm top-24"
       >
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts</h2>
