@@ -50,6 +50,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot Shaders explanation part 1](https://www.youtube.com/watch?v=1pJyYtBAHks)
   - [Godot Shaders explanation part 2](https://www.youtube.com/watch?v=KVTa2xkly1g)
   - [Godot tips for better visuals in 2D](https://www.youtube.com/watch?v=WO_kBYqAQwU)
+  - [Godot Save/Load of Resources](https://www.youtube.com/watch?v=wSq1QJ-g91M)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
 - Other stuff
