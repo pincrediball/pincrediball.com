@@ -71,6 +71,8 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - ["Define 2D polygon area and check if point is inside at runtime"](https://gamedev.stackexchange.com/q/204961/16701)
   - ["See connected signals for instantiated Node while in Debug mode"](https://gamedev.stackexchange.com/q/204967/16701)
   - [Sample repository for SubViewports with Pickable bodies that have InputEvents](https://github.com/jeroenheijmans/sample-godot-sub-viewport-and-input-events)
+  - [Godot Editor crash with "Noto Emoji" font](https://github.com/godotengine/godot/issues/75490)
+  - [Monospace SystemFont not working in Web builds](https://gamedev.stackexchange.com/q/205090/16701)
 
 ### Phaser (game engine)
 
@@ -115,6 +117,7 @@ Generic game development resources:
   - [@Pontypants devlog playlist](https://www.youtube.com/playlist?list=PLQ4Vt6g0IoeN2FAirquiSXtVkMcZYr_Rq) about creating Punch-A-Bunch
   - [The Beauty of Bezier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw)
   - [Writing a physics engine from scratch](https://www.youtube.com/watch?v=lS_qeBy3aQI)
+  - [Publish on itch.io beginner tutorial](https://www.youtube.com/watch?v=FyCWXJmord4)
 
 ### Pinball Machines
 
