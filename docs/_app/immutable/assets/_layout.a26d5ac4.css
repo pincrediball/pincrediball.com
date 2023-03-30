@@ -955,6 +955,9 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.block {
+  display: block;
+}
 .inline-block {
   display: inline-block;
 }
@@ -1321,12 +1324,20 @@ video {
 }
 @media (min-width: 640px) {
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:inline-block {
     display: inline-block;
   }
 
   .sm\:inline {
     display: inline;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:p-2 {
