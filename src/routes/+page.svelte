@@ -63,6 +63,7 @@
   <p class="mt-8 text-xl">
     <a
       class="
+        hover:animate-pulse
         bg-amber-400 hover:bg-amber-300 hover:shadow-firm border-2 border-amber-600/60 hover:border-amber-500/60
         py-2 px-4 rounded inline-block text-purple-900 font-bold"
       target="_blank"
