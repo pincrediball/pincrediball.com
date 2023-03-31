@@ -55,17 +55,39 @@
 </div>
 
 <div class="max-w-page mx-auto p-4 py-8 md:pt-16 md:pb-32">
-  <h2 class="font-bold text-4xl sm:text-6xl">Development Stage</h2>
+  <h2 class="font-bold text-4xl sm:text-6xl">DEMO Release available!</h2>
   <p class="mt-4 text-xl">
-    The game is currently under development. It's a one-person, six-week mini-sabbatical project. Or
-    at least the initial design and prototyping is. Heck, it's not even 100% sure that the game will
-    ever be released! But that won't be for lack of trying.
+    Play the game in your browser, or download a (higher quality) Desktop build for selected
+    platforms:
+  </p>
+  <p class="mt-8 text-xl">
+    <a
+      class="
+        bg-amber-400 hover:bg-amber-300 hover:shadow-firm border-2 border-amber-600/60 hover:border-amber-500/60
+        py-2 px-4 rounded inline-block text-purple-900 font-bold"
+      target="_blank"
+      rel="noreferrer"
+      href="https://pincrediball.itch.io/pincrediball"
+      >Play or Download the Pincrediball DEMO...<sup>↗</sup></a
+    >
+  </p>
+  <p class="mt-8 text-xl">
+    Or watch <A href="https://www.youtube.com/watch?v=oXBfiG2kagI"
+      >the DEMO launch trailer on YouTube</A
+    >. And tell your friends about it!
+  </p>
+  <h2 class="mt-16 font-bold text-4xl sm:text-6xl">About the Development Stage</h2>
+  <p class="mt-4 text-xl">
+    The game was a one-person, seven-week mini-sabbatical project. Or at least the initial design
+    and prototyping is. A fully functional DEMO version was released at the end. It includes one
+    full Tutorial machine. Whether we'll ever finish a full game? Who knows!?
   </p>
   <p class="mt-4 text-xl">
     The process is largely out in the open though! So that's something to enjoy already. Here's the
     initial design, but be sure to <a href="/devlog" class="a-internal">check the devlog</a> for more
     frequent updates.
   </p>
+  <p class="mt-4 text-xl">Here's a sketch of the initial design for you to enjoy:</p>
   <img
     src="/img/v2023-02-14a-tipm-design.png"
     class="mt-8 border-zinc-50 border-8 shadow-firm"
@@ -91,11 +113,12 @@
       <div
         class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
-        <h3 class="font-bold text-3xl">Q1 2023</h3>
+        <h3 class="font-bold text-3xl">✔ Q1 2023</h3>
         <ul class="list-disc mt-4 text-xl">
-          <li class="ml-8">Game design</li>
-          <li class="ml-8">Website, socials</li>
-          <li class="ml-8">Prototype</li>
+          <li class="ml-8">✔ Game design</li>
+          <li class="ml-8">✔ Website, socials</li>
+          <li class="ml-8">✔ Prototype</li>
+          <li class="ml-8">✔ DEMO Release</li>
         </ul>
       </div>
       <div
@@ -103,10 +126,10 @@
       >
         <h3 class="font-bold text-3xl">Q1 2023 - Never?</h3>
         <ul class="list-disc mt-4 text-xl">
-          <li class="ml-8">Finish Early Access</li>
-          <li class="ml-8">Publish on Steam</li>
-          <li class="ml-8">Publish on Itch.io</li>
-          <li class="ml-8">Earn at least $1!</li>
+          <li class="ml-8">✔ Finish Early Access</li>
+          <li class="ml-8">🔲 Publish on Steam</li>
+          <li class="ml-8">✔ Publish on Itch.io</li>
+          <li class="ml-8">✔ Earn at least $1!</li>
         </ul>
       </div>
       <div
@@ -114,8 +137,8 @@
       >
         <h3 class="font-bold text-3xl">Q2 2023 - Never?</h3>
         <ul class="list-disc mt-4 text-xl">
-          <li class="ml-8">Finish version 1.0</li>
-          <li class="ml-8">Kickstart(er for) 2.0?</li>
+          <li class="ml-8">🔲 Finish version 1.0</li>
+          <li class="ml-8">🔲 Kickstart(er for) 2.0?</li>
         </ul>
       </div>
     </div>
