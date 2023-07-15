@@ -29,9 +29,9 @@
       </h1>
       <h2 class="font-bold text-2xl mt-8 italic">The Automata Pinball Wizard game!</h2>
       <p class="text-2xl mt-4">
-        You design the machine, in order for the automated pinball player to achieve the best score
-        they can get. Create the best and most crazy pinball machine layouts and see where this will
-        take you and the automata!
+        <em>You</em> design the machine, in order for the automated pinball player to achieve the best
+        score they can get. Create the best and most crazy pinball machine layouts and see where this
+        will take you and the automata!
       </p>
     </div>
     <div class="md:w-[48rem]">
@@ -55,28 +55,71 @@
 </div>
 
 <div class="max-w-page mx-auto p-4 py-8 md:pt-16 md:pb-32">
-  <h2 class="font-bold text-4xl sm:text-6xl">DEMO Release available!</h2>
+  <h2 class="font-bold text-4xl sm:text-6xl">Available now!</h2>
   <p class="mt-4 text-xl">
-    Play the game in your browser, or download a (higher quality) Desktop build for selected
-    platforms:
+    Pincrediball has been released with a fully playable Tutorial machine! Pick your preferred
+    platform below.
   </p>
-  <p class="mt-8 text-xl">
-    <a
-      class="
-        hover:animate-pulse
-        bg-amber-400 hover:bg-amber-300 hover:shadow-firm border-2 border-amber-600/60 hover:border-amber-500/60
-        py-2 px-4 rounded inline-block text-purple-900 font-bold"
-      target="_blank"
-      rel="noreferrer"
-      href="https://pincrediball.itch.io/pincrediball"
-      >Play or Download the Pincrediball DEMO...<sup>↗</sup></a
+
+  <div class="mt-4 flex flex-col md:flex-row gap-4">
+    <div
+      class="md:w-1/2 p-4 bg-zinc-700 border-4 border-zinc-900 rounded-lg shadow-firm flex flex-col"
     >
-  </p>
-  <p class="mt-8 text-xl">
-    Or watch <A href="https://www.youtube.com/watch?v=oXBfiG2kagI"
-      >the DEMO launch trailer on YouTube</A
-    >. And tell your friends about it!
-  </p>
+      <h3 class="font-bold text-2xl text-amber-400">Steam Store (all Operating Systems)</h3>
+      <p class="mt-2">
+        Free Early Access version with all features, <em>plus</em> Steam Achievements! Install it now
+        on Windows, macOS, Linux, and Steam Deck!
+      </p>
+      <p class="mt-auto pt-4">
+        <a
+          class="
+          hover:animate-pulse
+        bg-amber-400 hover:bg-amber-300 hover:shadow-firm border-2 border-amber-600/60 hover:border-amber-500/60
+          py-2 px-4 rounded inline-block text-purple-900 font-bold"
+          target="_blank"
+          rel="noreferrer"
+          href="https://store.steampowered.com/app/2378150/Pincrediball/"
+        >
+          <img src="img/steam-icon.png" alt="Steam Logo" class="w-[24px] inline-block mr-1" />
+          Pincrediball on Steam<sup>↗</sup>
+        </a>
+      </p>
+    </div>
+    <div
+      class="md:w-1/2 p-4 bg-zinc-700 border-4 border-zinc-900 rounded-lg shadow-firm flex flex-col"
+    >
+      <h3 class="font-bold text-2xl text-amber-400">Itch.io (browser version)</h3>
+      <p class="mt-2">
+        Play the full game on Itch.io, in your browser (where supported). Free to play, but if you
+        really want on Itch you could tip me for the game if you're really inclined.
+      </p>
+      <p class="mt-auto pt-4">
+        <a
+          class="
+          hover:animate-pulse
+        bg-amber-400 hover:bg-amber-300 hover:shadow-firm border-2 border-amber-600/60 hover:border-amber-500/60
+          py-2 px-4 rounded inline-block text-purple-900 font-bold"
+          target="_blank"
+          rel="noreferrer"
+          href="https://pincrediball.itch.io/pincrediball"
+        >
+          <img src="img/itch-icon.png" alt="Itch.io Logo" class="w-[24px] inline-block mr-1" />
+          Pincrediball on itch.io<sup>↗</sup>
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <h2 class="font-bold text-4xl sm:text-6xl mt-16">Launch Trailer</h2>
+  <p class="mt-4 text-xl">Watch the release trailer with actual gameplay footage...</p>
+  <iframe
+    class="mt-8 w-full aspect-[16/9]"
+    src="https://www.youtube-nocookie.com/embed/oXBfiG2kagI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  />
   <h2 class="mt-16 font-bold text-4xl sm:text-6xl">About the Development Stage</h2>
   <p class="mt-4 text-xl">
     The game was a one-person, seven-week mini-sabbatical project. Or at least the initial design
@@ -114,32 +157,32 @@
       <div
         class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
-        <h3 class="font-bold text-3xl">✔ Q1 2023</h3>
-        <ul class="list-disc mt-4 text-xl">
-          <li class="ml-8">✔ Game design</li>
-          <li class="ml-8">✔ Website, socials</li>
-          <li class="ml-8">✔ Prototype</li>
-          <li class="ml-8">✔ DEMO Release</li>
+        <h3 class="font-bold text-3xl">Q1 2023</h3>
+        <ul class="mt-4 text-xl">
+          <li>✔ Game design</li>
+          <li>✔ Website, socials</li>
+          <li>✔ Prototype</li>
+          <li>✔ DEMO Release</li>
         </ul>
       </div>
       <div
         class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
-        <h3 class="font-bold text-3xl">Q1 2023 - Never?</h3>
-        <ul class="list-disc mt-4 text-xl">
-          <li class="ml-8">✔ Finish Early Access</li>
-          <li class="ml-8">🔲 Publish on Steam</li>
-          <li class="ml-8">✔ Publish on Itch.io</li>
-          <li class="ml-8">✔ Earn at least $1!</li>
+        <h3 class="font-bold text-3xl">Q1 2023 - Q2 2023</h3>
+        <ul class="mt-4 text-xl">
+          <li>✔ Finish Early Access</li>
+          <li>✔ Publish on Itch.io</li>
+          <li>✔ Earn at least $1!</li>
         </ul>
       </div>
       <div
         class="shadow-firm bg-purple-800 text-zinc-50 border-4 border-purple-900/50 rounded p-4 w-full md:w-1/3"
       >
-        <h3 class="font-bold text-3xl">Q2 2023 - Never?</h3>
-        <ul class="list-disc mt-4 text-xl">
-          <li class="ml-8">🔲 Finish version 1.0</li>
-          <li class="ml-8">🔲 Kickstart(er for) 2.0?</li>
+        <h3 class="font-bold text-3xl">Q3 2023 - 2024?</h3>
+        <ul class="mt-4 text-xl">
+          <li>✔ Publish on Steam</li>
+          <li>🔲 Finish version 1.0</li>
+          <li>🔲 Kickstart(er for) 2.0?</li>
         </ul>
       </div>
     </div>

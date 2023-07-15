@@ -6,8 +6,8 @@ A non-exhaustive list of resources that were used while building Pincrediball.
 
 It's not quite there yet, but there will be two most important links, so let's reserve some space for them:
 
-- To be created: **Pincrediball Steam Store page**.
-- To be created: **Pincrediball Itch.io page**.
+- [Pincrediball **Steam Store** page](https://store.steampowered.com/app/2378150/Pincrediball/)
+- [Pincrediball **Itch.io** page](https://pincrediball.itch.io/pincrediball)
 
 ### Own content
 

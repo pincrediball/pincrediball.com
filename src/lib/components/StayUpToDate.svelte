@@ -53,5 +53,17 @@
         me to put some (more) videos up?
       </p>
     </li>
+    <li class="bg-amber-400 border-4 border-amber-600/50 text-zinc-900 rounded-lg p-4 shadow-firm">
+      <h3 class="text-2xl font-bold">Steam</h3>
+      <p class="mt-2">
+        <A dark href="https://store.steampowered.com/app/2378150/Pincrediball"
+          >Wishlist the game on Steam</A
+        >
+      </p>
+      <p class="mt-2">
+        If newer versions or even a full version ever becomes a thing, subscribing to updates for
+        the game by Wish Listing it on Steam is probably a great way to stay up to date!
+      </p>
+    </li>
   </ul>
 </div>
