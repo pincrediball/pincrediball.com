@@ -1,7 +1,7 @@
 import { marked } from 'marked';
 
 const defaultRenderer = new marked.Renderer();
-marked.use({ renderer: defaultRenderer });
+marked.use({ renderer: defaultRenderer }, { headerIds: false, mangle: false });
 
 export type TableOfContentEntry = {
   slug?: string;
