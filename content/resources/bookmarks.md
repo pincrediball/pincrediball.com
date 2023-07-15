@@ -51,6 +51,7 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Godot Shaders explanation part 2](https://www.youtube.com/watch?v=KVTa2xkly1g)
   - [Godot tips for better visuals in 2D](https://www.youtube.com/watch?v=WO_kBYqAQwU)
   - [Godot Save/Load of Resources](https://www.youtube.com/watch?v=wSq1QJ-g91M)
+  - [Godot and GitLab CI/CD](https://www.youtube.com/watch?v=rUwm1V_-JIo)
   - [5 Reasons _not_ to use Godot](https://www.youtube.com/watch?v=zHSr9VETfdE)
   - [10 Reasons to use Godot](https://www.youtube.com/watch?v=1t2xKpVyZYg)
 - Other stuff
@@ -73,6 +74,9 @@ The second game engine I tried for Pincrediball, with a list of used resources:
   - [Sample repository for SubViewports with Pickable bodies that have InputEvents](https://github.com/jeroenheijmans/sample-godot-sub-viewport-and-input-events)
   - [Godot Editor crash with "Noto Emoji" font](https://github.com/godotengine/godot/issues/75490)
   - [Monospace SystemFont not working in Web builds](https://gamedev.stackexchange.com/q/205090/16701)
+  - [Keep exports_presets.cfg in source control without exposing secrets](https://gamedev.stackexchange.com/q/205299/16701)
+  - ["Godot 4 games exiting with "Orphan StringName" messages for production builds"](https://gamedev.stackexchange.com/q/206388/16701)
+  - [GodotSteam: "Exported macOS production app crashes on exit with a Segmentation Fault"](https://github.com/CoaguCo-Industries/GodotSteam/issues/355)
 
 ### Phaser (game engine)
 
