@@ -119,7 +119,7 @@
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
-  />
+  ></iframe>
   <h2 class="mt-16 font-bold text-4xl sm:text-6xl">About the Development Stage</h2>
   <p class="mt-4 text-xl">
     The game was a one-person, seven-week mini-sabbatical project. Or at least the initial design
@@ -191,4 +191,4 @@
 
 <StayUpToDate />
 
-<div class="mb-32" />
+<div class="mb-32"></div>

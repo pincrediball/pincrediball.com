@@ -16,7 +16,7 @@
         <NavItem clazz="hidden sm:inline-block" href="/">
           <img src="/favicon.png" alt="Pincrediball logo" class="h-12" />
         </NavItem>
-        <NavItem href="/"><span class="hidden sm:inline">The </span>Game</NavItem>
+        <NavItem href="/"><span class="hidden sm:inline">The&nbsp;</span>Game</NavItem>
         <NavItem href="/devlog">Devlog</NavItem>
         <NavItem href="/resources">Resources</NavItem>
         <NavItem href="/contact">Contact</NavItem>
