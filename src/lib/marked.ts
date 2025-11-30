@@ -1,7 +1,7 @@
-import { marked } from 'marked';
+import { marked, Renderer } from 'marked';
 
-const defaultRenderer = new marked.Renderer();
-marked.use({ renderer: defaultRenderer }, { headerIds: false, mangle: false });
+const defaultRenderer = new Renderer();
+marked.use({ renderer: defaultRenderer });
 
 export type TableOfContentEntry = {
   slug?: string;
@@ -18,13 +18,18 @@ export type TransformedMarkdown = {
 
 // TODO: Allow running this *without* generating a Table of Contents (e.g. not needed for devlog)
 export function markdownToHtml(markdown: string): TransformedMarkdown {
-  const renderer = new marked.Renderer();
+  const renderer = new Renderer();
 
-  renderer.link = (href, title, text) => {
+  renderer.link = (props: any) => {
+    const href = props?.href ?? (typeof props === 'string' ? props : undefined);
+    const title = props?.title;
+    const text = props?.text ?? '';
+
     if (href?.startsWith('http')) {
-      return `<a target="_blank" href='${href}'>${text}</span><sup class="text-xs no-underline">↗</sup></a>`;
+      return `<a target="_blank" href='${href}'>${marked.parseInline(text, { gfm: false })}<sup class="text-xs no-underline">↗</sup></a>`;
     }
-    return defaultRenderer.link(href, title, text);
+
+    return `<a target="_blank" href='${href}'>${marked.parseInline(text, { gfm: false })}</a>`;
   };
 
   let tableOfContents: TableOfContentEntry = { children: [] };
@@ -39,7 +44,11 @@ export function markdownToHtml(markdown: string): TransformedMarkdown {
     return getParent(level, candidate.parent);
   };
 
-  renderer.heading = (text, level, raw) => {
+  renderer.heading = (props: any) => {
+    const level = props?.depth ?? props?.level ?? 1;
+    const raw = String(props?.raw ?? props?.text ?? '');
+    const text = String(props?.text ?? raw);
+
     const parent = getParent(level, previousEntry);
 
     const prefix = parent ? `${parent.slug}--` : '';
@@ -70,10 +79,10 @@ export function markdownToHtml(markdown: string): TransformedMarkdown {
     return `<h${level} id="${slug}">${text}</h${level}>`;
   };
 
-  const html = marked(markdown, { renderer });
+  const html = marked.parse(markdown, { renderer }) as string;
 
   return {
-    html,
+    html: html,
     tableOfContents,
   };
 }

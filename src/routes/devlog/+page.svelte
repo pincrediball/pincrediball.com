@@ -46,6 +46,8 @@
 </div>
 
 <style lang="postcss">
+  @reference "../../app.css";
+  
   .page-container :global(.prose h2),
   .page-container :global(.prose h3),
   .page-container :global(.prose h4),
