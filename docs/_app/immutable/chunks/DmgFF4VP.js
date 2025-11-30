@@ -1,0 +1,1 @@
+import{l as o,u as l,b as t,d as u,e as a}from"./CBJA4bN0.js";function f(e){t===null&&o(),u&&t.l!==null?c(t).m.push(e):l(()=>{const n=a(e);if(typeof n=="function")return n})}function c(e){var n=e.l;return n.u??={a:[],b:[],m:[]}}export{f as o};
