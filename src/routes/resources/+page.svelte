@@ -35,6 +35,8 @@
 </div>
 
 <style lang="postcss">
+  @reference "../../app.css";
+
   .page-container :global(:is(h1, h2, h3, h4, h5, h6)) {
     @apply scroll-mt-24;
   }
