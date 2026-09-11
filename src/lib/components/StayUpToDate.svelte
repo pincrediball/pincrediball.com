@@ -1,5 +1,6 @@
 <script>
   import A from './A.svelte';
+  import { resolve } from '$app/paths';
 </script>
 
 <div class="max-w-full mx-auto px-4 py-8 sm:py-16 w-[1200px]">
@@ -11,7 +12,7 @@
     <li class="bg-amber-400 border-4 border-amber-600/50 text-zinc-900 rounded-lg p-4 shadow-firm">
       <h3 class="text-2xl font-bold">Devlog</h3>
       <p class="mt-2">
-        <a href="/devlog" class="a-internal-dark">https://pincrediball.com/devlog</a>
+        <a href={resolve('/devlog')} class="a-internal-dark">https://pincrediball.com/devlog</a>
       </p>
       <p class="mt-2">
         Sorry, no RSS yet! Please use socials for notifications on devlog updates where we'll post

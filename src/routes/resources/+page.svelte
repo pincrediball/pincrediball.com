@@ -24,10 +24,12 @@
     </div>
     <div>
       <article id="bookmarks" class="scroll-mt-24 prose prose-invert">
+        <!-- eslint-disable-next-line svelte/no-at-html-tags -- content is static markdown authored in content/, not user input -->
         {@html data.bookmarks.html}
       </article>
       <hr class="my-8 border-t border-t-amber-400/50" />
       <article id="glossary" class="scroll-mt-24 prose prose-invert mt-16">
+        <!-- eslint-disable-next-line svelte/no-at-html-tags -- content is static markdown authored in content/, not user input -->
         {@html data.glossary.html}
       </article>
     </div>

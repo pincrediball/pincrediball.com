@@ -1,4 +1,4 @@
-import { marked, Renderer } from 'marked';
+import { marked, Renderer, type Tokens } from 'marked';
 
 const defaultRenderer = new Renderer();
 marked.use({ renderer: defaultRenderer });
@@ -20,11 +20,7 @@ export type TransformedMarkdown = {
 export function markdownToHtml(markdown: string): TransformedMarkdown {
   const renderer = new Renderer();
 
-  renderer.link = (props: any) => {
-    const href = props?.href ?? (typeof props === 'string' ? props : undefined);
-    const title = props?.title;
-    const text = props?.text ?? '';
-
+  renderer.link = ({ href, text }: Tokens.Link) => {
     if (href?.startsWith('http')) {
       return `<a target="_blank" href='${href}'>${marked.parseInline(text, { gfm: false })}<sup class="text-xs no-underline">↗</sup></a>`;
     }
@@ -44,11 +40,7 @@ export function markdownToHtml(markdown: string): TransformedMarkdown {
     return getParent(level, candidate.parent);
   };
 
-  renderer.heading = (props: any) => {
-    const level = props?.depth ?? props?.level ?? 1;
-    const raw = String(props?.raw ?? props?.text ?? '');
-    const text = String(props?.text ?? raw);
-
+  renderer.heading = ({ depth: level, raw, text }: Tokens.Heading) => {
     const parent = getParent(level, previousEntry);
 
     const prefix = parent ? `${parent.slug}--` : '';

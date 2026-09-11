@@ -10,9 +10,10 @@
     <div>
       <p class="mb-4 text-sm text-amber-500">Latest post:</p>
 
-      {#each data.posts as post, idx}
+      {#each data.posts as post (post.id)}
         {#if !post.isDraft}
           <article id={post.id} class="scroll-mt-24 prose prose-invert max-w-none">
+            <!-- eslint-disable-next-line svelte/no-at-html-tags -- content is static markdown authored in content/devlog, not user input -->
             {@html markdownToHtml(post.content).html}
           </article>
           {#if post.order === 1}
@@ -31,9 +32,9 @@
       >
         <div class="p-4 flex flex-col gap-2">
           <h2 class="text-xl font-bold">Links to all posts</h2>
-          {#each data.postsGroupedByWeek as group}
+          {#each data.postsGroupedByWeek as group (group.key)}
             <h3 class="font-bold mt-2">{group.key}</h3>
-            {#each group.posts as post}
+            {#each group.posts as post (post.id)}
               {#if !post.isDraft}
                 <a class="underline hover:text-amber-500" href={`#${post.id}`}>{post.title}</a>
               {/if}

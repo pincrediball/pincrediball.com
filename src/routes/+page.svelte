@@ -1,6 +1,7 @@
 <script>
   import A from '$lib/components/A.svelte';
   import StayUpToDate from '$lib/components/StayUpToDate.svelte';
+  import { resolve } from '$app/paths';
 </script>
 
 <div
@@ -128,7 +129,7 @@
   </p>
   <p class="mt-4 text-xl">
     The process is largely out in the open though! So that's something to enjoy already. Here's the
-    initial design, but be sure to <a href="/devlog" class="a-internal">check the devlog</a> for more
+    initial design, but be sure to <a href={resolve('/devlog')} class="a-internal">check the devlog</a> for more
     frequent updates.
   </p>
   <p class="mt-4 text-xl">Here's a sketch of the initial design for you to enjoy:</p>
