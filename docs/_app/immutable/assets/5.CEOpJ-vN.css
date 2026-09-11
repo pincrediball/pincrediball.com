@@ -1,0 +1,1 @@
+.page-container.svelte-gczoum :is(h1,h2,h3,h4,h5,h6){scroll-margin-top:calc(var(--spacing,.25rem) * 24)}.page-container.svelte-gczoum .prose a{color:var(--color-orange-50,oklch(98% .016 73.684))}@media(hover:hover){.page-container.svelte-gczoum .prose a:hover{color:var(--color-orange-400,oklch(75% .183 55.934))}}
