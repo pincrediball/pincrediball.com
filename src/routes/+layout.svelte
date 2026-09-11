@@ -7,11 +7,11 @@
   import '../inter.css';
 </script>
 
-<div class="min-h-screen flex flex-col bg-gradient-to-b from-zinc-800 to-zinc-900 text-stone-50">
+<div class="flex min-h-screen flex-col bg-gradient-to-b from-zinc-800 to-zinc-900 text-stone-50">
   <nav
-    class="bg-amber-400 text-zinc-900 border-b border-b-zinc-900 px-4 h-16 z-40 sticky top-0 shadow-firm"
+    class="shadow-firm sticky top-0 z-40 h-16 border-b border-b-zinc-900 bg-amber-400 px-4 text-zinc-900"
   >
-    <div class="flex items-center gap-1 h-full max-w-page mx-auto">
+    <div class="max-w-page mx-auto flex h-full items-center gap-1">
       <div class="flex flex-wrap items-center">
         <NavItem clazz="hidden sm:inline-block" href="/">
           <img src="/favicon.png" alt="Pincrediball logo" class="h-12" />
@@ -33,9 +33,9 @@
   </nav>
   <slot />
   <footer class="mt-auto">
-    <div class="border-t-black/50 border-t bg-black/25">
+    <div class="border-t border-t-black/50 bg-black/25">
       <div class="max-w-page mx-auto p-4">
-        <p class="opacity-50 text-xs">
+        <p class="text-xs opacity-50">
           © 2023, Jeroen Heijmans | pincrediball.com |
           <A href="https://github.com/pincrediball/pincrediball.com">website source</A>
         </p>

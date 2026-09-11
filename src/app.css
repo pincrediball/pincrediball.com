@@ -1,13 +1,13 @@
-@config "../tailwind.config.js";
-@import "tailwindcss";
+@config '../tailwind.config.js';
+@import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
 @layer components {
   .a-internal {
-    @apply underline text-orange-100 hover:text-orange-500;
+    @apply text-orange-100 underline hover:text-orange-500;
   }
   .a-internal-dark {
-    @apply underline text-purple-900 hover:text-purple-700;
+    @apply text-purple-900 underline hover:text-purple-700;
   }
   .a-toc {
     @apply underline hover:text-amber-500;

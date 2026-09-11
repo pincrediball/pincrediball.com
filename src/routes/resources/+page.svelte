@@ -5,30 +5,30 @@
   export let data: PageData;
 </script>
 
-<div class="w-[1200px] max-w-full mx-auto px-4 pt-8 md:pt-12 pb-16 page-container">
-  <div class="grid md:grid-cols-[2fr_1fr] grid-cols-1 w-full gap-4 lg:gap-16">
-    <div class="order-first md:order-last mb-4">
+<div class="page-container mx-auto w-[1200px] max-w-full px-4 pt-8 pb-16 md:pt-12">
+  <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-[2fr_1fr] lg:gap-16">
+    <div class="order-first mb-4 md:order-last">
       <div
-        class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm sticky top-24"
+        class="shadow-firm sticky top-24 rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900"
       >
-        <div class="p-4 flex flex-col gap-2">
+        <div class="flex flex-col gap-2 p-4">
           <h2 class="text-xl font-bold">Table of Contents</h2>
-          <ul class="flex flex-col gap-2 mt-2">
+          <ul class="mt-2 flex flex-col gap-2">
             <TableOfContentsEntryItem entry={data.bookmarks.tableOfContents} />
           </ul>
-          <ul class="flex flex-col gap-2 mt-2">
+          <ul class="mt-2 flex flex-col gap-2">
             <TableOfContentsEntryItem entry={data.glossary.tableOfContents} />
           </ul>
         </div>
       </div>
     </div>
     <div>
-      <article id="bookmarks" class="scroll-mt-24 prose prose-invert">
+      <article id="bookmarks" class="prose prose-invert scroll-mt-24">
         <!-- eslint-disable-next-line svelte/no-at-html-tags -- content is static markdown authored in content/, not user input -->
         {@html data.bookmarks.html}
       </article>
       <hr class="my-8 border-t border-t-amber-400/50" />
-      <article id="glossary" class="scroll-mt-24 prose prose-invert mt-16">
+      <article id="glossary" class="prose prose-invert mt-16 scroll-mt-24">
         <!-- eslint-disable-next-line svelte/no-at-html-tags -- content is static markdown authored in content/, not user input -->
         {@html data.glossary.html}
       </article>

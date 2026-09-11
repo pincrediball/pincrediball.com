@@ -5,14 +5,14 @@
   export let data: PageData;
 </script>
 
-<div class="w-[1200px] max-w-full mx-auto px-4 pt-12 pb-16 page-container">
-  <div class="grid md:grid-cols-[2fr_1fr] grid-cols-1 w-full gap-4 lg:gap-16">
+<div class="page-container mx-auto w-[1200px] max-w-full px-4 pt-12 pb-16">
+  <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-[2fr_1fr] lg:gap-16">
     <div>
       <p class="mb-4 text-sm text-amber-500">Latest post:</p>
 
       {#each data.posts as post (post.id)}
         {#if !post.isDraft}
-          <article id={post.id} class="scroll-mt-24 prose prose-invert max-w-none">
+          <article id={post.id} class="prose prose-invert max-w-none scroll-mt-24">
             <!-- eslint-disable-next-line svelte/no-at-html-tags -- content is static markdown authored in content/devlog, not user input -->
             {@html markdownToHtml(post.content).html}
           </article>
@@ -28,12 +28,12 @@
 
     <div>
       <div
-        class="rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900 shadow-firm top-24"
+        class="shadow-firm top-24 rounded bg-gradient-to-r from-zinc-50 to-zinc-200 text-zinc-900"
       >
-        <div class="p-4 flex flex-col gap-2">
+        <div class="flex flex-col gap-2 p-4">
           <h2 class="text-xl font-bold">Links to all posts</h2>
           {#each data.postsGroupedByWeek as group (group.key)}
-            <h3 class="font-bold mt-2">{group.key}</h3>
+            <h3 class="mt-2 font-bold">{group.key}</h3>
             {#each group.posts as post (post.id)}
               {#if !post.isDraft}
                 <a class="underline hover:text-amber-500" href={`#${post.id}`}>{post.title}</a>
@@ -48,7 +48,7 @@
 
 <style lang="postcss">
   @reference "../../app.css";
-  
+
   .page-container :global(.prose h2),
   .page-container :global(.prose h3),
   .page-container :global(.prose h4),
@@ -60,16 +60,16 @@
     @apply mb-2;
   }
   .page-container :global(.prose h2 + h3) {
-    @apply -mt-4 pb-2 text-lg border-b border-slate-50/10;
+    @apply -mt-4 border-b border-slate-50/10 pb-2 text-lg;
   }
   .page-container :global(.prose h2 + p strong em) {
     @apply text-amber-500;
   }
   .page-container :global(.prose img) {
-    @apply border-2 border-black hover:border-amber-600 mt-4;
+    @apply mt-4 border-2 border-black hover:border-amber-600;
   }
   .page-container :global(.prose video) {
-    @apply border-2 border-black/50 hover:border-amber-600 w-full lg:min-h-[400px];
+    @apply w-full border-2 border-black/50 hover:border-amber-600 lg:min-h-[400px];
   }
   .page-container :global(.prose a) {
     @apply text-orange-50 hover:text-orange-400;
