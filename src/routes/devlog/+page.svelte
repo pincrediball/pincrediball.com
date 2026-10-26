@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { markdownToHtml } from '$lib/marked';
+  import { markdownToHtml } from '#lib/marked.js';
   import type { PageData } from './$types';
 
   export let data: PageData;

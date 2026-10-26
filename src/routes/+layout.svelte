@@ -1,8 +1,8 @@
 <script lang="ts">
-  import A from '$lib/components/A.svelte';
-  import NavItem from '$lib/components/NavItem.svelte';
-  import SvgMastodon from '$lib/components/SvgMastodon.svelte';
-  import SvgTwitter from '$lib/components/SvgTwitter.svelte';
+  import A from '#lib/components/A.svelte';
+  import NavItem from '#lib/components/NavItem.svelte';
+  import SvgMastodon from '#lib/components/SvgMastodon.svelte';
+  import SvgTwitter from '#lib/components/SvgTwitter.svelte';
   import '../app.css';
   import '../inter.css';
 </script>
@@ -13,13 +13,13 @@
   >
     <div class="max-w-page mx-auto flex h-full items-center gap-1">
       <div class="flex flex-wrap items-center">
-        <NavItem clazz="hidden sm:inline-block" href="/">
+        <NavItem clazz="hidden sm:inline-block" href="">
           <img src="/favicon.png" alt="Pincrediball logo" class="h-12" />
         </NavItem>
-        <NavItem href="/"><span class="hidden sm:inline">The&nbsp;</span>Game</NavItem>
-        <NavItem href="/devlog">Devlog</NavItem>
-        <NavItem href="/resources">Resources</NavItem>
-        <NavItem href="/contact">Contact</NavItem>
+        <NavItem href=""><span class="hidden sm:inline">The&nbsp;</span>Game</NavItem>
+        <NavItem href="devlog">Devlog</NavItem>
+        <NavItem href="resources">Resources</NavItem>
+        <NavItem href="contact">Contact</NavItem>
       </div>
       <div class="ml-auto flex h-full items-center gap-2">
         <a target="_blank" rel="noreferrer me" href="https://twitter.com/pincrediball">

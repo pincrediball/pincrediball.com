@@ -1,5 +1,5 @@
 <script lang="ts">
-  import TableOfContentsEntryItem from '$lib/components/TableOfContentsEntryItem.svelte';
+  import TableOfContentsEntryItem from '#lib/components/TableOfContentsEntryItem.svelte';
   import type { PageData } from './$types';
 
   export let data: PageData;

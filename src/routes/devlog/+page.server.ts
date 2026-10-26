@@ -1,4 +1,4 @@
-import { getWeekNumber } from '$lib/util';
+import { getWeekNumber } from '#lib/util.js';
 import { readdirSync, readFileSync } from 'fs';
 import type { PageServerLoad } from './$types';
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { TableOfContentEntry } from '$lib/marked';
+  import type { TableOfContentEntry } from '#lib/marked.js';
   export let entry: TableOfContentEntry;
 </script>
 
