@@ -5,6 +5,9 @@
   import SvgTwitter from '#lib/components/SvgTwitter.svelte';
   import '../app.css';
   import '../inter.css';
+  import type { Snippet } from 'svelte';
+
+  let { children }: { children: Snippet } = $props();
 </script>
 
 <div class="flex min-h-screen flex-col bg-gradient-to-b from-zinc-800 to-zinc-900 text-stone-50">
@@ -31,7 +34,7 @@
       </div>
     </div>
   </nav>
-  <slot />
+  {@render children()}
   <footer class="mt-auto">
     <div class="border-t border-t-black/50 bg-black/25">
       <div class="max-w-page mx-auto p-4">
