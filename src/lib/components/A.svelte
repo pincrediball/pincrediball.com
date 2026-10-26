@@ -1,6 +1,11 @@
 <script lang="ts">
-  export let href: string;
-  export let dark = false;
+  import type { Snippet } from 'svelte';
+
+  let {
+    href,
+    dark = false,
+    children,
+  }: { href: string; dark?: boolean; children?: Snippet } = $props();
 </script>
 
 <!-- prettier-ignore -->
@@ -9,4 +14,4 @@
   target="_blank"
   rel="noreferrer external"
   {href}><span class="underline"
-><slot /></span><sup class="text-xs no-underline">↗</sup></a>
+>{@render children?.()}</span><sup class="text-xs no-underline">↗</sup></a>

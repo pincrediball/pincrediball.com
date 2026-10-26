@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 import type { PageServerLoad } from './$types';
-import { markdownToHtml, type TransformedMarkdown } from '$lib/marked';
+import { markdownToHtml, type TransformedMarkdown } from '#lib/marked.js';
 
 function getContents(file: 'glossary' | 'bookmarks'): TransformedMarkdown {
   const markdown = readFileSync(`content/resources/${file}.md`, 'utf-8');

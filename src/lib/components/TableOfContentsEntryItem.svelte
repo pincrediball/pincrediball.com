@@ -1,6 +1,8 @@
 <script lang="ts">
-  import type { TableOfContentEntry } from '$lib/marked';
-  export let entry: TableOfContentEntry;
+  import type { TableOfContentEntry } from '#lib/marked.js';
+  import TableOfContentsEntryItem from './TableOfContentsEntryItem.svelte';
+
+  let { entry }: { entry: TableOfContentEntry } = $props();
 </script>
 
 <li>
@@ -10,7 +12,7 @@
   {#if entry.children?.length}
     <ul class="mt-2 ml-8 flex list-disc flex-col gap-2">
       {#each entry.children as child (child.slug)}
-        <svelte:self entry={child} />
+        <TableOfContentsEntryItem entry={child} />
       {/each}
     </ul>
   {/if}

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import TableOfContentsEntryItem from '$lib/components/TableOfContentsEntryItem.svelte';
+  import TableOfContentsEntryItem from '#lib/components/TableOfContentsEntryItem.svelte';
   import type { PageData } from './$types';
 
-  export let data: PageData;
+  let { data }: { data: PageData } = $props();
 </script>
 
 <div class="page-container mx-auto w-[1200px] max-w-full px-4 pt-8 pb-16 md:pt-12">

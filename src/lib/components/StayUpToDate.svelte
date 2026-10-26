@@ -12,8 +12,9 @@
     <li class="shadow-firm rounded-lg border-4 border-amber-600/50 bg-amber-400 p-4 text-zinc-900">
       <h3 class="text-2xl font-bold">Devlog</h3>
       <p class="mt-2">
-        <a href={resolve('/devlog')} class="a-internal-dark">https://pincrediball.com/devlog</a>
+        <a href={resolve('devlog')} class="a-internal-dark">https://pincrediball.com/devlog</a>
       </p>
+
       <p class="mt-2">
         Sorry, no RSS yet! Please use socials for notifications on devlog updates where we'll post
         them often.
@@ -32,6 +33,7 @@
       <p class="mt-2">
         <A dark href="https://twitter.com/pincrediball">Follow @Pincrediball on Twitter</A>
       </p>
+
       <p class="mt-2">
         Mastodon will likely get the most frequent updates, but the most important one will surely
         also go to the bird app?!
@@ -49,6 +51,7 @@
       <p class="mt-2">
         <A dark href="https://www.youtube.com/@pincrediball">Subscribe on YouTube</A>
       </p>
+
       <p class="mt-2">
         Content forthcoming, but you can already subscribe of course! Who knows, extra subs may push
         me to put some (more) videos up?

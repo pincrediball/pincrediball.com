@@ -1,6 +1,6 @@
 <script>
-  import A from '$lib/components/A.svelte';
-  import StayUpToDate from '$lib/components/StayUpToDate.svelte';
+  import A from '#lib/components/A.svelte';
+  import StayUpToDate from '#lib/components/StayUpToDate.svelte';
 </script>
 
 <StayUpToDate />

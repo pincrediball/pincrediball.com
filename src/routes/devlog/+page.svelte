@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { markdownToHtml } from '$lib/marked';
+  import { markdownToHtml } from '#lib/marked.js';
   import type { PageData } from './$types';
 
-  export let data: PageData;
+  let { data }: { data: PageData } = $props();
 </script>
 
 <div class="page-container mx-auto w-[1200px] max-w-full px-4 pt-12 pb-16">
